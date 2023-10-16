@@ -8,7 +8,29 @@ import Form from './Pages/Form'
 const routes = [
     {
         path: '/',
-        element: <App />
+        element: <App />,
+        children: [
+            {
+                path: '/',
+                element: <Home />
+            },
+            {
+                path: '/activites',
+                element: <AllActivites />
+            },
+            {
+                path: 'activites/:id',
+                element: <ActivityDetails />
+            },
+            {
+                path: '/mybucketlist',
+                element: <UserList />
+            },
+            {
+                path: '/form',
+                element: <Form />
+            }
+        ]
     }
 ]
 
