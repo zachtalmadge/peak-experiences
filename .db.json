@@ -1,0 +1,308 @@
+{
+    "userList": [
+
+    ],
+    
+    "bucketListItems": [
+        {
+        "ID": 1,
+        "Name": "Visit the Great Wall of China",
+        "Image": "",
+        "Location": "China",
+        "Description": "Explore one of the most iconic landmarks in the world.",
+        "Categories": "Sight-Seeing",
+        "Risk": "Low",
+        "isInList": false
+        },
+        {
+        "ID": 2,
+        "Name": "Skydiving",
+        "Image": "",
+        "Location": "Various",
+        "Description": "Experience the thrill of jumping from an airplane.",
+        "Categories": "Extreme Sports",
+        "Risk": "High",
+        "isInList": false
+        },
+        {
+        "ID": 3,
+        "Name": "See the Northern Lights",
+        "Image": "",
+        "Location": "Norway",
+        "Description": "Witness the natural light display in the Earth's sky.",
+        "Categories": "Nature",
+        "Risk": "Low",
+        "isInList": false
+        },
+        {
+        "ID": 4,
+        "Name": "Scuba Dive in the Great Barrier Reef",
+        "Image": "",
+        "Location": "Australia",
+        "Description": "Explore the largest coral reef system in the world.",
+        "Categories": "Nature",
+        "Risk": "Medium",
+        "isInList": false
+        },
+        {
+        "ID": 5,
+        "Name": "Visit the Pyramids of Giza",
+        "Image": "",
+        "Location": "Egypt",
+        "Description": "Witness the architectural marvel of the ancient world.",
+        "Categories": "Sight-Seeing",
+        "Risk": "Low",
+        "isInList": false
+        },
+        {
+        "ID": 6,
+        "Name": "Bungee Jumping in New Zealand",
+        "Image": "",
+        "Location": "New Zealand",
+        "Description": "Jump from a platform in one of the most scenic locations.",
+        "Categories": "Extreme Sports",
+        "Risk": "High",
+        "isInList": false
+        },
+        {
+        "ID": 7,
+        "Name": "Visit Machu Picchu",
+        "Image": "",
+        "Location": "Peru",
+        "Description": "Explore the ancient Incan ruins set high in the Andes Mountains.",
+        "Categories": "Sight-Seeing",
+        "Risk": "Medium",
+        "isInList": false
+        },
+        {
+        "ID": 8,
+        "Name": "Climb Mount Kilimanjaro",
+        "Image": "",
+        "Location": "Tanzania",
+        "Description": "Reach the summit of Africa's highest peak.",
+        "Categories": "Travel",
+        "Risk": "High",
+        "isInList": false
+        },
+        {
+        "ID": 9,
+        "Name": "Visit the Eiffel Tower",
+        "Image": "",
+        "Location": "Paris, France",
+        "Description": "Explore the world-renowned iron structure.",
+        "Categories": "Sight-Seeing",
+        "Risk": "Low",
+        "isInList": false
+        },
+        {
+        "ID": 10,
+        "Name": "White Water Rafting in the Grand Canyon",
+        "Image": "",
+        "Location": "Arizona, USA",
+        "Description": "Navigate the rapids of the Colorado River.",
+        "Categories": "Extreme Sports",
+        "Risk": "High",
+        "isInList": false
+        },
+        {
+            "ID": 11,
+            "Name": "Visit the Taj Mahal",
+            "Image": "",
+            "Location": "Agra, India",
+            "Description": "Explore the iconic symbol of Indian rich history.",
+            "Categories": "Sight-Seeing",
+            "Risk": "Low",
+            "isInList": false
+          },
+          {
+            "ID": 12,
+            "Name": "Explore the Galapagos Islands",
+            "Image": "",
+            "Location": "Ecuador",
+            "Description": "Encounter unique wildlife and pristine landscapes.",
+            "Categories": "Nature",
+            "Risk": "Medium",
+            "isInList": false
+          },
+          {
+            "ID": 13,
+            "Name": "Visit the Colosseum",
+            "Image": "",
+            "Location": "Rome, Italy",
+            "Description": "Step back in time at this iconic ancient amphitheater.",
+            "Categories": "Sight-Seeing",
+            "Risk": "Low",
+            "isInList": false
+          },
+          {
+            "ID": 14,
+            "Name": "Paragliding in the Swiss Alps",
+            "Image": "",
+            "Location": "Switzerland",
+            "Description": "Soar over breathtaking landscapes.",
+            "Categories": "Extreme Sports",
+            "Risk": "High",
+            "isInList": false
+          },
+          {
+            "ID": 15,
+            "Name": "Visit Petra",
+            "Image": "",
+            "Location": "Jordan",
+            "Description": "Explore the rose-red city with intricate architecture carved into the cliffs.",
+            "Categories": "Sight-Seeing",
+            "Risk": "Medium",
+            "isInList": false
+          },
+          {
+            "ID": 16,
+            "Name": "Safari in Serengeti",
+            "Image": "",
+            "Location": "Tanzania",
+            "Description": "Witness the majestic wildlife in their natural habitat.",
+            "Categories": "Nature",
+            "Risk": "Medium",
+            "isInList": false
+          },
+          {
+            "ID": 17,
+            "Name": "Visit Sydney Opera House",
+            "Image": "",
+            "Location": "Sydney, Australia",
+            "Description": "Explore the iconic masterpiece of late modern architecture.",
+            "Categories": "Sight-Seeing",
+            "Risk": "Low",
+            "isInList": false
+          },
+          {
+            "ID": 18,
+            "Name": "Hang Gliding in Rio de Janeiro",
+            "Image": "",
+            "Location": "Rio de Janeiro, Brazil",
+            "Description": "Glide over the scenic landscapes of Rio.",
+            "Categories": "Extreme Sports",
+            "Risk": "High",
+            "isInList": false
+          },
+          {
+            "ID": 19,
+            "Name": "Visit the Acropolis",
+            "Image": "",
+            "Location": "Athens, Greece",
+            "Description": "Discover the ancient citadel on a rocky outcrop above the city.",
+            "Categories": "Sight-Seeing",
+            "Risk": "Low",
+            "isInList": false
+          },
+          {
+            "ID": 20,
+            "Name": "Explore the Canadian Rockies",
+            "Image": "",
+            "Location": "Canada",
+            "Description": "Hike through the majestic mountain range.",
+            "Categories": "Nature",
+            "Risk": "Medium",
+            "isInList": false
+          },
+          {
+            "ID": 21,
+            "Name": "Visit the Statue of Liberty",
+            "Image": "",
+            "Location": "New York City, USA",
+            "Description": "See the universal symbol of freedom and democracy.",
+            "Categories": "Sight-Seeing",
+            "Risk": "Low",
+            "isInList": false
+          },
+          {
+            "ID": 22,
+            "Name": "Zipline in Costa Rica",
+            "Image": "",
+            "Location": "Costa Rica",
+            "Description": "Experience the thrill of ziplining through lush forests.",
+            "Categories": "Extreme Sports",
+            "Risk": "Medium",
+            "isInList": false
+          },
+          {
+            "ID": 23,
+            "Name": "Visit the Leaning Tower of Pisa",
+            "Image": "",
+            "Location": "Pisa, Italy",
+            "Description": "See the world-famous tilted tower.",
+            "Categories": "Sight-Seeing",
+            "Risk": "Low",
+            "isInList": false
+          },
+          {
+            "ID": 24,
+            "Name": "Explore Yellowstone National Park",
+            "Image": "",
+            "Location": "Wyoming, USA",
+            "Description": "Discover the first national park known for its wildlife and geothermal features.",
+            "Categories": "Nature",
+            "Risk": "Medium",
+            "isInList": false
+          },
+          {
+            "ID": 25,
+            "Name": "Visit the Louvre Museum",
+            "Image": "",
+            "Location": "Paris, France",
+            "Description": "Explore the world's largest art museum.",
+            "Categories": "Sight-Seeing",
+            "Risk": "Low",
+            "isInList": false
+          },
+          {
+            "ID": 26,
+            "Name": "Surfing in Bali",
+            "Image": "",
+            "Location": "Bali, Indonesia",
+            "Description": "Ride the waves on the beautiful beaches of Bali.",
+            "Categories": "Extreme Sports",
+            "Risk": "Medium",
+            "isInList": false
+          },
+          {
+            "ID": 27,
+            "Name": "Visit Sydney Opera House",
+            "Image": "",
+            "Location": "Sydney, Australia",
+            "Description": "Explore the iconic masterpiece of late modern architecture.",
+            "Categories": "Sight-Seeing",
+            "Risk": "Low",
+            "isInList": false
+          },
+          {
+            "ID": 28,
+            "Name": "Explore the Sahara Desert",
+            "Image": "",
+            "Location": "Africa",
+            "Description": "Experience the vastness and beauty of the world's largest hot desert.",
+            "Categories": "Nature",
+            "Risk": "Medium",
+            "isInList": false
+          },
+          {
+            "ID": 29,
+            "Name": "Visit Hollywood Sign",
+            "Image": "",
+            "Location": "Los Angeles, USA",
+            "Description": "Hike up to the world-famous sign and enjoy the city views.",
+            "Categories": "Sight-Seeing",
+            "Risk": "Low",
+            "isInList": false
+          },
+          {
+            "ID": 30,
+            "Name": "Visit Buckingham Palace",
+            "Image": "",
+            "Location": "London, UK",
+            "Description": "Witness the iconic residence of the British monarch.",
+            "Categories": "Sight-Seeing",
+            "Risk": "Low",
+            "isInList": false
+          }
+    ]
+}
