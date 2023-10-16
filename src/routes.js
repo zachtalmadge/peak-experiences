@@ -19,7 +19,7 @@ const routes = [
                 element: <AllActivites />
             },
             {
-                path: 'activites/:id',
+                path: '/activites/:id',
                 element: <ActivityDetails />
             },
             {

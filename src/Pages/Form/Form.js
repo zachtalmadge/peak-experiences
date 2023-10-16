@@ -1,7 +1,7 @@
 const Form = () => {
     return (
-        <div className="container mt-5">
-        <h2>Bucket List Item</h2>
+        <div className="container my-5">
+        <h2>Submit A Bucket List Item</h2>
         <form>
             <div className="mb-3">
                 <label htmlFor="name" className="form-label">Name</label>
@@ -37,7 +37,7 @@ const Form = () => {
                 </select>
             </div>
     
-            <button type="submit" className="btn btn-primary">Add to Bucket List</button>
+            <button type="submit" className="btn btn-primary">Submit</button>
         </form>
     </div>
     )
