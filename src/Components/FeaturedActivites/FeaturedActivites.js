@@ -5,7 +5,7 @@ import Col from 'react-bootstrap/Col'
 const FeaturedActivites = () => {
 
     return (
-        <Container>
+        <Container className="my-5">
             <h1 className="text-center">Featured Activites</h1>
             <Row>
                 <Col>
