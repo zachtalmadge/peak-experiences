@@ -12,7 +12,15 @@ const Form = () => {
     
 
     let submitActivity = (e) => {
-        
+        let activity ={
+            name: nameProp.value,
+            image: imageProp.value,
+            location: locationProp.value,
+            description: descriptionProp.value,
+            category: categoriesProp.value,
+            risk: riskProp.value,
+            isInList: false
+        }
     }
 
     return (
