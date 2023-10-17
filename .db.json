@@ -10,7 +10,7 @@
         "image": "",
         "location": "China",
         "description": "Explore one of the most iconic landmarks in the world.",
-        "categories": "Sight-Seeing",
+        "category": "Sight-Seeing",
         "risk": "Low",
         "isInList": false
         },
@@ -20,7 +20,7 @@
         "image": "",
         "location": "Various",
         "description": "Experience the thrill of jumping from an airplane.",
-        "categories": "Extreme Sports",
+        "category": "Extreme Sports",
         "risk": "High",
         "isInList": false
         },
@@ -30,7 +30,7 @@
         "image": "",
         "location": "Norway",
         "description": "Witness the natural light display in the Earth's sky.",
-        "categories": "Nature",
+        "category": "Nature",
         "risk": "Low",
         "isInList": false
         },
@@ -40,7 +40,7 @@
         "image": "",
         "location": "Australia",
         "description": "Explore the largest coral reef system in the world.",
-        "categories": "Nature",
+        "category": "Nature",
         "risk": "Medium",
         "isInList": false
         },
@@ -50,7 +50,7 @@
         "image": "",
         "location": "Egypt",
         "description": "Witness the architectural marvel of the ancient world.",
-        "categories": "Sight-Seeing",
+        "category": "Sight-Seeing",
         "risk": "Low",
         "isInList": false
         },
@@ -60,7 +60,7 @@
         "image": "",
         "location": "New Zealand",
         "description": "Jump from a platform in one of the most scenic locations.",
-        "categories": "Extreme Sports",
+        "category": "Extreme Sports",
         "risk": "High",
         "isInList": false
         },
@@ -70,7 +70,7 @@
         "image": "",
         "location": "Peru",
         "description": "Explore the ancient Incan ruins set high in the Andes Mountains.",
-        "categories": "Sight-Seeing",
+        "category": "Sight-Seeing",
         "risk": "Medium",
         "isInList": false
         },
@@ -80,7 +80,7 @@
         "image": "",
         "location": "Tanzania",
         "description": "Reach the summit of Africa's highest peak.",
-        "categories": "Travel",
+        "category": "Travel",
         "risk": "High",
         "isInList": false
         },
@@ -90,7 +90,7 @@
         "image": "",
         "location": "Paris, France",
         "description": "Explore the world-renowned iron structure.",
-        "categories": "Sight-Seeing",
+        "category": "Sight-Seeing",
         "risk": "Low",
         "isInList": false
         },
@@ -100,7 +100,7 @@
         "image": "",
         "location": "Arizona, USA",
         "description": "Navigate the rapids of the Colorado River.",
-        "categories": "Extreme Sports",
+        "category": "Extreme Sports",
         "risk": "High",
         "isInList": false
         },
@@ -110,7 +110,7 @@
             "image": "",
             "location": "Agra, India",
             "description": "Explore the iconic symbol of Indian rich history.",
-            "categories": "Sight-Seeing",
+            "category": "Sight-Seeing",
             "risk": "Low",
             "isInList": false
           },
@@ -120,7 +120,7 @@
             "image": "",
             "location": "Ecuador",
             "description": "Encounter unique wildlife and pristine landscapes.",
-            "categories": "Nature",
+            "category": "Nature",
             "risk": "Medium",
             "isInList": false
           },
@@ -130,7 +130,7 @@
             "image": "",
             "location": "Rome, Italy",
             "description": "Step back in time at this iconic ancient amphitheater.",
-            "categories": "Sight-Seeing",
+            "category": "Sight-Seeing",
             "risk": "Low",
             "isInList": false
           },
@@ -140,7 +140,7 @@
             "image": "",
             "location": "Switzerland",
             "description": "Soar over breathtaking landscapes.",
-            "categories": "Extreme Sports",
+            "category": "Extreme Sports",
             "risk": "High",
             "isInList": false
           },
@@ -150,7 +150,7 @@
             "image": "",
             "location": "Jordan",
             "description": "Explore the rose-red city with intricate architecture carved into the cliffs.",
-            "categories": "Sight-Seeing",
+            "category": "Sight-Seeing",
             "risk": "Medium",
             "isInList": false
           },
@@ -160,7 +160,7 @@
             "image": "",
             "location": "Tanzania",
             "description": "Witness the majestic wildlife in their natural habitat.",
-            "categories": "Nature",
+            "category": "Nature",
             "risk": "Medium",
             "isInList": false
           },
@@ -170,7 +170,7 @@
             "image": "",
             "location": "Sydney, Australia",
             "description": "Explore the iconic masterpiece of late modern architecture.",
-            "categories": "Sight-Seeing",
+            "category": "Sight-Seeing",
             "risk": "Low",
             "isInList": false
           },
@@ -180,7 +180,7 @@
             "image": "",
             "location": "Rio de Janeiro, Brazil",
             "description": "Glide over the scenic landscapes of Rio.",
-            "categories": "Extreme Sports",
+            "category": "Extreme Sports",
             "risk": "High",
             "isInList": false
           },
@@ -190,7 +190,7 @@
             "image": "",
             "location": "Athens, Greece",
             "description": "Discover the ancient citadel on a rocky outcrop above the city.",
-            "categories": "Sight-Seeing",
+            "category": "Sight-Seeing",
             "risk": "Low",
             "isInList": false
           },
@@ -200,7 +200,7 @@
             "image": "",
             "location": "Canada",
             "description": "Hike through the majestic mountain range.",
-            "categories": "Nature",
+            "category": "Nature",
             "risk": "Medium",
             "isInList": false
           },
@@ -210,7 +210,7 @@
             "image": "",
             "location": "New York City, USA",
             "description": "See the universal symbol of freedom and democracy.",
-            "categories": "Sight-Seeing",
+            "category": "Sight-Seeing",
             "risk": "Low",
             "isInList": false
           },
@@ -220,7 +220,7 @@
             "image": "",
             "location": "Costa Rica",
             "description": "Experience the thrill of ziplining through lush forests.",
-            "categories": "Extreme Sports",
+            "category": "Extreme Sports",
             "risk": "Medium",
             "isInList": false
           },
@@ -230,7 +230,7 @@
             "image": "",
             "location": "Pisa, Italy",
             "description": "See the world-famous tilted tower.",
-            "categories": "Sight-Seeing",
+            "category": "Sight-Seeing",
             "risk": "Low",
             "isInList": false
           },
@@ -240,7 +240,7 @@
             "image": "",
             "location": "Wyoming, USA",
             "description": "Discover the first national park known for its wildlife and geothermal features.",
-            "categories": "Nature",
+            "category": "Nature",
             "risk": "Medium",
             "isInList": false
           },
@@ -250,7 +250,7 @@
             "image": "",
             "location": "Paris, France",
             "description": "Explore the world's largest art museum.",
-            "categories": "Sight-Seeing",
+            "category": "Sight-Seeing",
             "risk": "Low",
             "isInList": false
           },
@@ -260,7 +260,7 @@
             "image": "",
             "location": "Bali, Indonesia",
             "description": "Ride the waves on the beautiful beaches of Bali.",
-            "categories": "Extreme Sports",
+            "category": "Extreme Sports",
             "risk": "Medium",
             "isInList": false
           },
@@ -270,7 +270,7 @@
             "image": "",
             "location": "Sydney, Australia",
             "description": "Explore the iconic masterpiece of late modern architecture.",
-            "categories": "Sight-Seeing",
+            "category": "Sight-Seeing",
             "risk": "Low",
             "isInList": false
           },
@@ -280,7 +280,7 @@
             "image": "",
             "location": "Africa",
             "description": "Experience the vastness and beauty of the world's largest hot desert.",
-            "categories": "Nature",
+            "category": "Nature",
             "risk": "Medium",
             "isInList": false
           },
@@ -290,7 +290,7 @@
             "image": "",
             "location": "Los Angeles, USA",
             "description": "Hike up to the world-famous sign and enjoy the city views.",
-            "categories": "Sight-Seeing",
+            "category": "Sight-Seeing",
             "risk": "Low",
             "isInList": false
           },
@@ -300,7 +300,7 @@
             "image": "",
             "location": "London, UK",
             "description": "Witness the iconic residence of the British monarch.",
-            "categories": "Sight-Seeing",
+            "category": "Sight-Seeing",
             "risk": "Low",
             "isInList": false
           }
