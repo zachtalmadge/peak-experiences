@@ -8,11 +8,11 @@ const Footer = () => {
         <div className="container-fluid bg-dark py-4">
             <Container>
                 <Row className="text-center text-light">
-                    <Col>
+                    <Col className="text-left">
                         <p>Contributing Developers</p>
-                        <p>Alberto Sierra</p>
-                        <p>Landon Cramer</p>
-                        <p>Zachary Talmadge</p>
+                        <p>⭐️ Alberto Sierra</p>
+                        <p>⭐️ Landon Cramer</p>
+                        <p>⭐️ Zachary Talmadge</p>
                     </Col>
                     <Col> 
                         <p>Brought to you by</p>

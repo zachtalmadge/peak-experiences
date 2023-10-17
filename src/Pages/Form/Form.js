@@ -1,4 +1,5 @@
 import useInput from '../../Hooks/customHooks'
+import Container from 'react-bootstrap/Container'
 
 const Form = () => {
 
@@ -33,8 +34,10 @@ const Form = () => {
     }
 
     return (
+        <Container fluid className="bg-dark py-5 text-light">
+
         <div className="container my-5">
-            <h2>Submit A Bucket List Item</h2>
+            <h1 className="text-center">Submit A Bucket List Activity</h1>
             <form onSubmit={submitActivity}>
                 <div className="mb-3">
                     <label htmlFor="name" className="form-label">Name</label>
@@ -120,9 +123,10 @@ const Form = () => {
                     </div>
                 </div>
 
-                <button type="submit" className="btn btn-primary btn-lg">Submit</button>
+                <button type="submit" className="btn btn-warning btn-lg">Submit</button>
             </form>
         </div>
+        </Container>
     )
 }
 
