@@ -12,6 +12,8 @@ const Form = () => {
     
 
     let submitActivity = (e) => {
+        e.preventDefault()
+
         let activity ={
             name: nameProp.value,
             image: imageProp.value,
@@ -21,6 +23,13 @@ const Form = () => {
             risk: riskProp.value,
             isInList: false
         }
+
+        let body = JSON.stringify(activity)
+        let headers = {"content-type": "application/json"}
+
+        //post fetch call
+
+
     }
 
     return (
