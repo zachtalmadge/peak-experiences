@@ -8,11 +8,9 @@ import 'bootstrap/dist/css/bootstrap.min.css'
 const App = () => {
   return (
     <>
-      <Container>
         <NavBar />
         <Outlet />
         <Footer />
-      </Container>
     </>
   );
 }

@@ -5,11 +5,14 @@ import Col from 'react-bootstrap/Col'
 
 const Footer = () => {
     return (
-        <>
+        <div className="container-fluid bg-dark py-4">
             <Container>
-                <Row className="text-center">
+                <Row className="text-center text-light">
                     <Col>
-                        Contributing Developers
+                        <p>Contributing Developers</p>
+                        <p>Alberto Sierra</p>
+                        <p>Landon Cramer</p>
+                        <p>Zachary Talmadge</p>
                     </Col>
                     <Col> 
                         Brought to you by
@@ -19,7 +22,7 @@ const Footer = () => {
                     </Col>
                 </Row>
             </Container>
-        </>
+        </div>
     )
 }
 
