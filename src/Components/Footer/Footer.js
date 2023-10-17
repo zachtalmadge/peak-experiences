@@ -15,7 +15,8 @@ const Footer = () => {
                         <p>Zachary Talmadge</p>
                     </Col>
                     <Col> 
-                        Brought to you by
+                        <p>Brought to you by</p>
+                        <img className="img-fluid rounded" src="./assets/fis_logo.png" alt="Flatiron school logo"/>
                     </Col>
                     <Col>
                         Social Media
