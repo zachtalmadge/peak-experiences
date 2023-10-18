@@ -9,7 +9,7 @@
       "description": "Explore one of the most iconic landmarks in the world.",
       "category": "Sight-Seeing",
       "risk": "Low",
-      "isInList": false
+      "isInList": true
     },
     {
       "id": 2,
