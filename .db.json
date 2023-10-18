@@ -1,7 +1,4 @@
-{
-  "userList": [
-    
-  ],
+  "userList": [],
   "bucketListItems": [
     {
       "id": 1,
@@ -126,7 +123,9 @@
     {
       "id": 13,
       "name": "Visit the Colosseum",
+
       "image": "https://www.italiandualcitizenship.net/wp-content/uploads/2019/02/what-you-should-know-about-the-colosseum.jpg",
+
       "location": "Rome, Italy",
       "description": "Step back in time at this iconic ancient amphitheater.",
       "category": "Sight-Seeing",
@@ -304,4 +303,3 @@
       "isInList": false
     }
   ]
-}
