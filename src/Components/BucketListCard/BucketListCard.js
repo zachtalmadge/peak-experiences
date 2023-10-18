@@ -6,7 +6,7 @@ function BucketListCard({ image, name, location, risk, isInList, id }) {
   //   isInList = false;
   return (
     <Card>
-      <Card.Img variant="top" src={image} />
+      <Card.Img variant="top" src={image} height="350"/>
       <Card.Body>
         <Card.Title>{name}</Card.Title>
         <Card.Text>{location}</Card.Text>
