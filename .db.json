@@ -4,7 +4,7 @@
     {
       "id": 1,
       "name": "Visit the Great Wall of China",
-      "image": "",
+      "image": "https://www.travelandleisure.com/thmb/b2-ee45Q1DEjuzOa51XLhJ7Rfmc=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/great-wall-china-tourists-GWOC0417-10bddbf0783644c386178f62117b2132.jpg",
       "location": "China",
       "description": "Explore one of the most iconic landmarks in the world.",
       "category": "Sight-Seeing",
@@ -14,7 +14,7 @@
     {
       "id": 2,
       "name": "Skydiving",
-      "image": "",
+      "image": "https://www.bankrate.com/2021/10/29124754/life-skydivers-featured.jpg?auto=webp&optimize=high&crop=16:9",
       "location": "Various",
       "description": "Experience the thrill of jumping from an airplane.",
       "category": "Extreme Sports",
@@ -24,7 +24,7 @@
     {
       "id": 3,
       "name": "See the Northern Lights",
-      "image": "",
+      "image": "https://people.com/thmb/LlK_MlS68QhxZljZv4kj8azDFk0=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc():focal(711x617:713x619)/northern-lights-071123-4-fc284acf67034d2e8b95e79be861de0b.jpg",
       "location": "Norway",
       "description": "Witness the natural light display in the Earth's sky.",
       "category": "Nature",
@@ -34,7 +34,7 @@
     {
       "id": 4,
       "name": "Scuba Dive in the Great Barrier Reef",
-      "image": "",
+      "image": "https://prodivecairns.com/images/silverswift/divebuzz-silverswift-apr2014-fullsize-7776.43.t.jpg",
       "location": "Australia",
       "description": "Explore the largest coral reef system in the world.",
       "category": "Nature",
@@ -44,7 +44,7 @@
     {
       "id": 5,
       "name": "Visit the Pyramids of Giza",
-      "image": "",
+      "image": "https://content.r9cdn.net/rimg/dimg/9a/61/3dc6f5bb-city-25999-16ea40716ab.jpg?width=1200&height=630&xhint=2045&yhint=2190&crop=true",
       "location": "Egypt",
       "description": "Witness the architectural marvel of the ancient world.",
       "category": "Sight-Seeing",
@@ -54,7 +54,7 @@
     {
       "id": 6,
       "name": "Bungee Jumping in New Zealand",
-      "image": "",
+      "image": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/06/e7/7f/93.jpg",
       "location": "New Zealand",
       "description": "Jump from a platform in one of the most scenic locations.",
       "category": "Extreme Sports",
@@ -64,7 +64,7 @@
     {
       "id": 7,
       "name": "Visit Machu Picchu",
-      "image": "",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Machu_Picchu%2C_Peru.jpg/1200px-Machu_Picchu%2C_Peru.jpg",
       "location": "Peru",
       "description": "Explore the ancient Incan ruins set high in the Andes Mountains.",
       "category": "Sight-Seeing",
@@ -74,7 +74,7 @@
     {
       "id": 8,
       "name": "Climb Mount Kilimanjaro",
-      "image": "",
+      "image": "https://www.discoverafrica.com/wp-content/uploads/2021/11/kilimanjaro_2-2.jpg",
       "location": "Tanzania",
       "description": "Reach the summit of Africa's highest peak.",
       "category": "Travel",
@@ -84,7 +84,7 @@
     {
       "id": 9,
       "name": "Visit the Eiffel Tower",
-      "image": "",
+      "image": "https://www.travelandleisure.com/thmb/SPUPzO88ZXq6P4Sm4mC5Xuinoik=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/eiffel-tower-paris-france-EIFFEL0217-6ccc3553e98946f18c893018d5b42bde.jpg",
       "location": "Paris, France",
       "description": "Explore the world-renowned iron structure.",
       "category": "Sight-Seeing",
@@ -94,7 +94,7 @@
     {
       "id": 10,
       "name": "White Water Rafting in the Grand Canyon",
-      "image": "",
+      "image": "https://www.visitarizona.com/imager/s3_us-west-1_amazonaws_com/aot-2020/images/Grand-Canyon/rafting_ea34f4b3cf96b22e435ec5589f8d847c.jpg",
       "location": "Arizona, USA",
       "description": "Navigate the rapids of the Colorado River.",
       "category": "Extreme Sports",
