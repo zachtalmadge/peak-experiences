@@ -1,6 +1,4 @@
-{
   "userList": [],
-
   "bucketListItems": [
     {
       "id": 1,
@@ -105,7 +103,7 @@
     {
       "id": 11,
       "name": "Visit the Taj Mahal",
-      "image": "",
+      "image": "https://cdn.britannica.com/86/170586-050-AB7FEFAE/Taj-Mahal-Agra-India.jpg",
       "location": "Agra, India",
       "description": "Explore the iconic symbol of Indian rich history.",
       "category": "Sight-Seeing",
@@ -115,7 +113,7 @@
     {
       "id": 12,
       "name": "Explore the Galapagos Islands",
-      "image": "",
+      "image": "https://cdn.britannica.com/11/154211-050-FBEDB2C1/Bartolome-Island-Galapagos-Islands-Ecuador.jpg",
       "location": "Ecuador",
       "description": "Encounter unique wildlife and pristine landscapes.",
       "category": "Nature",
@@ -125,7 +123,9 @@
     {
       "id": 13,
       "name": "Visit the Colosseum",
-      "image": "",
+
+      "image": "https://www.italiandualcitizenship.net/wp-content/uploads/2019/02/what-you-should-know-about-the-colosseum.jpg",
+
       "location": "Rome, Italy",
       "description": "Step back in time at this iconic ancient amphitheater.",
       "category": "Sight-Seeing",
@@ -135,7 +135,7 @@
     {
       "id": 14,
       "name": "Paragliding in the Swiss Alps",
-      "image": "",
+      "image": "https://thumbs.dreamstime.com/z/paragliding-swiss-alps-28217985.jpg",
       "location": "Switzerland",
       "description": "Soar over breathtaking landscapes.",
       "category": "Extreme Sports",
@@ -145,7 +145,7 @@
     {
       "id": 15,
       "name": "Visit Petra",
-      "image": "",
+      "image": "https://www.ontheluce.com/wp-content/uploads/2012/11/petra-monastery.jpg",
       "location": "Jordan",
       "description": "Explore the rose-red city with intricate architecture carved into the cliffs.",
       "category": "Sight-Seeing",
@@ -155,7 +155,7 @@
     {
       "id": 16,
       "name": "Safari in Serengeti",
-      "image": "",
+      "image": "https://files.adventure-life.com/14/80/52/kenya-zebras_serengeti/1300x820.1673896150.webp",
       "location": "Tanzania",
       "description": "Witness the majestic wildlife in their natural habitat.",
       "category": "Nature",
@@ -165,7 +165,7 @@
     {
       "id": 17,
       "name": "Visit Sydney Opera House",
-      "image": "",
+      "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/17/3b/95/61/photo2jpg.jpg?w=1200&h=-1&s=1",
       "location": "Sydney, Australia",
       "description": "Explore the iconic masterpiece of late modern architecture.",
       "category": "Sight-Seeing",
@@ -175,7 +175,7 @@
     {
       "id": 18,
       "name": "Hang Gliding in Rio de Janeiro",
-      "image": "",
+      "image": "https://cdn.getyourguide.com/img/tour/5cd989c1dc17b.jpeg/148.jpg",
       "location": "Rio de Janeiro, Brazil",
       "description": "Glide over the scenic landscapes of Rio.",
       "category": "Extreme Sports",
@@ -185,7 +185,7 @@
     {
       "id": 19,
       "name": "Visit the Acropolis",
-      "image": "",
+      "image": "https://www.gpsmycity.com/img/gd_cover/1587.jpg",
       "location": "Athens, Greece",
       "description": "Discover the ancient citadel on a rocky outcrop above the city.",
       "category": "Sight-Seeing",
@@ -195,7 +195,7 @@
     {
       "id": 20,
       "name": "Explore the Canadian Rockies",
-      "image": "",
+      "image": "https://media.gadventures.com/media-server/cache/04/5b/045b8dceb504e29d095e600582def48e.jpg",
       "location": "Canada",
       "description": "Hike through the majestic mountain range.",
       "category": "Nature",
@@ -303,4 +303,3 @@
       "isInList": false
     }
   ]
-}
