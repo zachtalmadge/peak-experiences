@@ -23,9 +23,9 @@ const AllActivites = () => {
       <Container>
         <FilterByCategory changeCategory={changeCategory} />
         <Row>
-          {filteredActivites.map((activity) => (
-            <Col md={4}>
-              <BucketListCard {...activity} key={activity.id} />
+          {filteredActivites.map((activity, i) => (
+            <Col key={i} md={4}>
+              <BucketListCard {...activity} key={i} />
             </Col>
           ))}
         </Row>

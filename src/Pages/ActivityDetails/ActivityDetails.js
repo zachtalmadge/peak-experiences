@@ -6,7 +6,6 @@ function ActivityDetails() {
   const [activities] = useOutletContext();
 
   let activity = activities.find((item) => item.id === parseInt(id));
-  console.log(activity);
 
   return <Details {...activity} />;
 }
