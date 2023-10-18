@@ -3,19 +3,6 @@ import BucketListCard from "../../Components/BucketListCard";
 import { useEffect, useState } from "react";
 const UserList = () => {
 
-useEffect(() => {
-  first
-
-}, [third])
-
-
-
-fetch("http://localhost:3000/userList")
-.then(resp=>resp.json())
-.then(myActivity=>)
-.catch()
-
-
   return (
     <div>
       <h1>My Bucket List</h1>
@@ -26,4 +13,3 @@ fetch("http://localhost:3000/userList")
 };
 
 export default UserList;
-
