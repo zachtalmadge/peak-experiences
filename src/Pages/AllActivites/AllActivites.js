@@ -2,6 +2,9 @@ import { useState } from "react";
 import { useOutletContext } from "react-router";
 import FilterByCategory from "../../Components/FilterByCategory";
 import BucketListCard from "../../Components/BucketListCard";
+import Container from "react-bootstrap/Container";
+import Row from "react-bootstrap/Row";
+import Col from "react-bootstrap/Col";
 
 const AllActivites = () => {
   let [activites] = useOutletContext();
@@ -17,10 +20,16 @@ const AllActivites = () => {
 
   return (
     <>
-      <FilterByCategory changeCategory={changeCategory} />
-      {filteredActivites.map((activity) => (
-        <BucketListCard {...activity} key={activity.id} />
-      ))}
+      <Container>
+        <FilterByCategory changeCategory={changeCategory} />
+        <Row>
+          {filteredActivites.map((activity) => (
+            <Col md={4}>
+              <BucketListCard {...activity} key={activity.id} />
+            </Col>
+          ))}
+        </Row>
+      </Container>
     </>
   );
 };
