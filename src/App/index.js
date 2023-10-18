@@ -1,41 +1,17 @@
-import { useState, useEffect } from "react";
-import { Outlet } from "react-router-dom";
-import NavBar from "../Components/Navbar";
-import Footer from "../Components/Footer";
-import "bootstrap/dist/css/bootstrap.min.css";
+import { Outlet } from 'react-router-dom'
+import { useFetch } from '../Hooks/customHooks'
+import NavBar from '../Components/Navbar'
+import Footer from '../Components/Footer'
+import 'bootstrap/dist/css/bootstrap.min.css'
 
 let URL1 = "http://localhost:3000/bucketListItems";
 let URL2 = "http://localhost:3000/userList";
 
 const App = () => {
-  let [activites, setActivites] = useState([]);
-  let [userList, setUserList] = useState([]);
 
-  // UPDATE ME TO USE useFETCH HOOK
+  const { data: activites, setData: setActivites } = useFetch(URL1)
 
-  useEffect(() => {
-    try {
-      (async () => {
-        let response = await fetch(URL1);
-        let data = await response.json();
-        setActivites(data);
-      })();
-    } catch (error) {
-      alert(error);
-    }
-  }, []);
-
-  useEffect(() => {
-    try {
-      (async () => {
-        let response = await fetch(URL2);
-        let data = await response.json();
-        setUserList(data);
-      })();
-    } catch (error) {
-      alert(error);
-    }
-  }, []);
+  const { data: userList, setData: setUserActivies } = useFetch(URL2)
 
   return (
     <>

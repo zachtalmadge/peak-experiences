@@ -17,7 +17,7 @@ export const useInput = initialValue => {
 
 export function useFetch(uri) {
 
-    // this is a custom hook to encapsulate fetch functionality
+    // this is a custom hook to encapsulate fetch and useEffect functionality
     // it returns an object containing 3 states for conditional rendering and a setData function
 
     const [data, setData] = useState([])
