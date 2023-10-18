@@ -6,12 +6,14 @@ import Col from "react-bootstrap/Col";
 
 const UserList = () => {
   const [, userList] = useOutletContext();
+  console.log(userList)
 
   return (
     <>
       <Container className="my-5 text-center">
         <Row>
           <h1>Your Bucket List</h1>
+          {userList.length === 0 ? <p className="lead">You have nothing in your bucket list! Head over to "All Activites" to add a few!</p> : '' }
           {userList.map((activity, i) => (
             <Col key={i} md={4}>
               <BucketListCard {...activity} key={i} />
