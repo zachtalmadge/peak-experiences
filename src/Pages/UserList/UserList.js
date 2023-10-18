@@ -10,8 +10,9 @@ const UserList = () => {
 
   return (
     <>
-    <Container>
+    <Container className="my-5 text-center">
       <Row>
+        <h1>Your Bucket List</h1>
         {userList.map((activity, i) => (
           <Col key={i} md={4}>
             <BucketListCard {...activity} key={i} />

@@ -9,7 +9,7 @@
       "description": "Explore one of the most iconic landmarks in the world.",
       "category": "Sight-Seeing",
       "risk": "Low",
-      "isInList": true
+      "isInList": false
     },
     {
       "id": 2,
@@ -214,7 +214,7 @@
     {
       "id": 22,
       "name": "Zipline in Costa Rica",
-      "image": "https://ticotimes.net/wp-content/uploads/2015/08/150801Ziplining.jpg",
+      "image": "https://media.tacdn.com/media/attractions-splice-spp-674x446/07/30/52/70.jpg",
       "location": "Costa Rica",
       "description": "Experience the thrill of ziplining through lush forests.",
       "category": "Extreme Sports",
