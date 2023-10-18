@@ -2,19 +2,12 @@ import { useOutletContext } from "react-router";
 import BucketListCard from "../../Components/BucketListCard";
 import { useEffect, useState } from "react";
 const UserList = () => {
-
-useEffect(() => {
-  first
-
-}, [third])
-
-
-
-fetch("http://localhost:3000/userList")
-.then(resp=>resp.json())
-.then(myActivity=>)
-.catch()
-
+  useEffect(() => {
+    fetch("http://localhost:3000/userList")
+      .then((resp) => resp.json())
+      .then((myActivity) => myActivity)
+      .catch();
+  }, []);
 
   return (
     <div>
@@ -26,4 +19,3 @@ fetch("http://localhost:3000/userList")
 };
 
 export default UserList;
-
