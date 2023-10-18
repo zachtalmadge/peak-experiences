@@ -13,10 +13,68 @@ const App = () => {
 
   const { data: userList, setData: setUserActivies } = useFetch(URL2)
 
+  const addToUserList = async (id) => {
+
+    // set state for both userList and activitesList
+
+    let activity = activites.find(act => act.id === id)
+    setUserActivies([activity, ...userList])
+
+    let newActivites = activites.map(act => {
+      if (act.id === activity.id) {
+        return { isInList: true, ...act }
+      } else {
+        return act
+      }
+    }) 
+
+    setActivites(newActivites)
+
+    // perform fetch calls to persist to database
+
+    const headers = {"content-type": "application/json"}
+    const body = JSON.stringify({...activity, isInList: true})
+
+    fetch(URL2, {method:"POST", headers, body})
+    fetch(`${URL1}/${activity.id}`, {method: "PATCH", headers, body})
+
+    alert(`${activity.name} has been added to your bucket list!`)
+
+  } // end function
+
+  const removeFromUserList = (id) => {
+
+    // set state for both userList and activitesList
+
+    let activity = activites.find(act => act.id === id)
+    setUserActivies([activity, ...userList])
+    console.log(activity)
+
+    let newActivites = activites.map(act => {
+      if (act.id === activity.id) {
+        return { isInList: false, ...act }
+      } else {
+        return act
+      }
+    }) 
+
+    setActivites(newActivites)
+
+    // perform fetch calls to persist to database
+
+    const headers = {"content-type": "application/json"}
+    const body = JSON.stringify({...activity, isInList: false})
+
+    fetch(`${URL2}/${activity.id}`, {method:"DELETE"})
+    fetch(`${URL1}/${activity.id}`, {method: "PATCH", headers, body})
+
+    alert(`${activity.name} has been removed to your bucket list!`)
+  }
+
   return (
     <>
       <NavBar />
-      <Outlet context={[activites, userList]} />
+      <Outlet context={[activites, userList, addToUserList, removeFromUserList]} />
       <Footer />
     </>
   );
