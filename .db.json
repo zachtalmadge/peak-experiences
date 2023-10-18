@@ -5,7 +5,7 @@
     {
       "id": 1,
       "name": "Visit the Great Wall of China",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/The_Great_Wall_of_China_at_Jinshanling-edit.jpg/1200px-The_Great_Wall_of_China_at_Jinshanling-edit.jpg",
+      "image": "",
       "location": "China",
       "description": "Explore one of the most iconic landmarks in the world.",
       "category": "Sight-Seeing",
@@ -205,7 +205,7 @@
     {
       "id": 21,
       "name": "Visit the Statue of Liberty",
-      "image": "https://www.nps.gov/stli/planyourvisit/images/Liberty-statue-with-manhattan_1.jpg?maxwidth=1300&maxheight=1300&autorotate=false",
+      "image": "",
       "location": "New York City, USA",
       "description": "See the universal symbol of freedom and democracy.",
       "category": "Sight-Seeing",
@@ -215,7 +215,7 @@
     {
       "id": 22,
       "name": "Zipline in Costa Rica",
-      "image": "https://ticotimes.net/wp-content/uploads/2015/08/150801Ziplining.jpg",
+      "image": "",
       "location": "Costa Rica",
       "description": "Experience the thrill of ziplining through lush forests.",
       "category": "Extreme Sports",
@@ -225,7 +225,7 @@
     {
       "id": 23,
       "name": "Visit the Leaning Tower of Pisa",
-      "image": "https://media.tacdn.com/media/attractions-splice-spp-674x446/10/09/10/1d.jpg",
+      "image": "",
       "location": "Pisa, Italy",
       "description": "See the world-famous tilted tower.",
       "category": "Sight-Seeing",
@@ -235,7 +235,7 @@
     {
       "id": 24,
       "name": "Explore Yellowstone National Park",
-      "image": "https://www.journeyrentacar.com/wp-content/uploads/2022/05/bigstock-Waterfall-At-The-Grand-Canyon-431955632.jpg",
+      "image": "",
       "location": "Wyoming, USA",
       "description": "Discover the first national park known for its wildlife and geothermal features.",
       "category": "Nature",
@@ -245,7 +245,7 @@
     {
       "id": 25,
       "name": "Visit the Louvre Museum",
-      "image": "https://cdn.contexttravel.com/image/upload/w_1500,q_60/v1572037091/blog/a%20guide%20to%20visiting%20the%20louvre/pyramid-495398_1280.jpg",
+      "image": "",
       "location": "Paris, France",
       "description": "Explore the world's largest art museum.",
       "category": "Sight-Seeing",
@@ -255,7 +255,7 @@
     {
       "id": 26,
       "name": "Surfing in Bali",
-      "image": "https://traveler.marriott.com/wp-content/uploads/2017/10/Bali-Surfers-1536x864.jpg",
+      "image": "",
       "location": "Bali, Indonesia",
       "description": "Ride the waves on the beautiful beaches of Bali.",
       "category": "Extreme Sports",
@@ -265,7 +265,7 @@
     {
       "id": 27,
       "name": "Visit Sydney Opera House",
-      "image": "https://images.strang-inc.com/wp-content/uploads/2019/04/01193109/Sydenyopera.jpg",
+      "image": "",
       "location": "Sydney, Australia",
       "description": "Explore the iconic masterpiece of late modern architecture.",
       "category": "Sight-Seeing",
@@ -275,7 +275,7 @@
     {
       "id": 28,
       "name": "Explore the Sahara Desert",
-      "image": "https://cdn.kimkim.com/files/a/images/1920ca139fbe85fa79fa4fdfcaa7733c5215f781/big-e3723fccb5269e8e6458c8ed47feaa18.jpg",
+      "image": "",
       "location": "Africa",
       "description": "Experience the vastness and beauty of the world's largest hot desert.",
       "category": "Nature",
@@ -285,7 +285,7 @@
     {
       "id": 29,
       "name": "Visit Hollywood Sign",
-      "image": "https://www.exp1.com/blog/wp-content/uploads/sites/7/2018/03/Hollywood-2.jpeg",
+      "image": "",
       "location": "Los Angeles, USA",
       "description": "Hike up to the world-famous sign and enjoy the city views.",
       "category": "Sight-Seeing",
@@ -295,7 +295,7 @@
     {
       "id": 30,
       "name": "Visit Buckingham Palace",
-      "image": "https://cdn-imgix.headout.com/media/images/3d31bf9d9ab2aaf55bdee0f869c67c81-21362-london-royal-london---windsor-full-day-tour-07.jpg?auto=format&w=814.9333333333333&h=458.4&q=90&fit=crop&ar=16%3A9",
+      "image": "",
       "location": "London, UK",
       "description": "Witness the iconic residence of the British monarch.",
       "category": "Sight-Seeing",

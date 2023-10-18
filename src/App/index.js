@@ -11,6 +11,8 @@ const App = () => {
   let [activites, setActivites] = useState([]);
   let [userList, setUserList] = useState([]);
 
+  // UPDATE ME TO USE useFETCH HOOK
+
   useEffect(() => {
     try {
       (async () => {
