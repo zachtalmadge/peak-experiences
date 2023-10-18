@@ -20,14 +20,6 @@ const AllActivites = () => {
 
   return (
     <>
-      <FilterByCategory changeCategory={changeCategory} />
-
-
-      {filteredActivites.map((activity) => (
-        <BucketListCard {...activity} key={activity.id} />
-      ))}
-
-      
       <Container>
         <FilterByCategory changeCategory={changeCategory} />
         <Row>
