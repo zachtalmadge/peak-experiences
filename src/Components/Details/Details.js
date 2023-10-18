@@ -6,9 +6,6 @@ import BucketListCard from "../BucketListCard";
 
 function Details({ name, image, id, location, isInList }) {
   console.log(name);
-
-  const addToMyList = () => {};
-
   return (
     <BucketListCard
       name={name}
@@ -21,3 +18,5 @@ function Details({ name, image, id, location, isInList }) {
 }
 
 export default Details;
+
+// 21-30 image url for our bucklist activities.

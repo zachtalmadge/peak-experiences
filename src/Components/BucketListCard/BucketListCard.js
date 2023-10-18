@@ -3,7 +3,7 @@ import Card from "react-bootstrap/Card";
 import { Link } from "react-router-dom";
 
 function BucketListCard({ image, name, location, risk, isInList, id }) {
-  isInList = false;
+  //   isInList = false;
   return (
     <Card>
       <Card.Img variant="top" src={image} />

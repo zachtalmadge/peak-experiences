@@ -7,7 +7,6 @@ const AllActivites = () => {
   let [activites] = useOutletContext();
   let [category, setCategory] = useState("");
 
-  console.log(activites);
   const changeCategory = (e) => {
     setCategory(e.target.value);
   };

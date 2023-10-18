@@ -3,6 +3,12 @@ import BucketListCard from "../../Components/BucketListCard";
 import { useEffect, useState } from "react";
 const UserList = () => {
 
+useEffect(() => {
+  first
+
+}, [third])
+
+
 
 fetch("http://localhost:3000/userList")
 .then(resp=>resp.json())
