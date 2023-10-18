@@ -14,6 +14,7 @@ const App = () => {
   const { data: userList, setData: setUserActivies } = useFetch(URL2)
 
   const addToUserList = async (id) => {
+    console.log('ADD FUNCTION US RUNNING')
 
     // set state for both userList and activitesList
 
@@ -22,7 +23,7 @@ const App = () => {
 
     let newActivites = activites.map(act => {
       if (act.id === activity.id) {
-        return { isInList: true, ...act }
+        return { ...act , isInList: true}
       } else {
         return act
       }
@@ -43,25 +44,27 @@ const App = () => {
   } // end function
 
   const removeFromUserList = (id) => {
+    console.log('DELETE FUNCTION IS RUNNING')
 
     // set state for both userList and activitesList
 
-    let activity = activites.find(act => act.id === id)
-    setUserActivies([activity, ...userList])
-    console.log(activity)
-
+    let newUserActivites = userList.filter(act => act.id !== id)
+    setUserActivies(newUserActivites)
+    
     let newActivites = activites.map(act => {
-      if (act.id === activity.id) {
+      if (act.id === id) {
         return { isInList: false, ...act }
       } else {
         return act
       }
     }) 
-
+    
     setActivites(newActivites)
-
+    
     // perform fetch calls to persist to database
-
+    
+    let activity = activites.find(act => act.id === id)
+    
     const headers = {"content-type": "application/json"}
     const body = JSON.stringify({...activity, isInList: false})
 
