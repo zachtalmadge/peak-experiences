@@ -1,308 +1,307 @@
 {
-    "userList": [
-
-    ],
+  "userList": [
     
-    "bucketListItems": [
-        {
-        "id": 1,
-        "name": "Visit the Great Wall of China",
-        "image": "",
-        "location": "China",
-        "description": "Explore one of the most iconic landmarks in the world.",
-        "category": "Sight-Seeing",
-        "risk": "Low",
-        "isInList": false
-        },
-        {
-        "id": 2,
-        "name": "Skydiving",
-        "image": "",
-        "location": "Various",
-        "description": "Experience the thrill of jumping from an airplane.",
-        "category": "Extreme Sports",
-        "risk": "High",
-        "isInList": false
-        },
-        {
-        "id": 3,
-        "name": "See the Northern Lights",
-        "image": "",
-        "location": "Norway",
-        "description": "Witness the natural light display in the Earth's sky.",
-        "category": "Nature",
-        "risk": "Low",
-        "isInList": false
-        },
-        {
-        "id": 4,
-        "name": "Scuba Dive in the Great Barrier Reef",
-        "image": "",
-        "location": "Australia",
-        "description": "Explore the largest coral reef system in the world.",
-        "category": "Nature",
-        "risk": "Medium",
-        "isInList": false
-        },
-        {
-        "id": 5,
-        "name": "Visit the Pyramids of Giza",
-        "image": "",
-        "location": "Egypt",
-        "description": "Witness the architectural marvel of the ancient world.",
-        "category": "Sight-Seeing",
-        "risk": "Low",
-        "isInList": false
-        },
-        {
-        "id": 6,
-        "name": "Bungee Jumping in New Zealand",
-        "image": "",
-        "location": "New Zealand",
-        "description": "Jump from a platform in one of the most scenic locations.",
-        "category": "Extreme Sports",
-        "risk": "High",
-        "isInList": false
-        },
-        {
-        "id": 7,
-        "name": "Visit Machu Picchu",
-        "image": "",
-        "location": "Peru",
-        "description": "Explore the ancient Incan ruins set high in the Andes Mountains.",
-        "category": "Sight-Seeing",
-        "risk": "Medium",
-        "isInList": false
-        },
-        {
-        "id": 8,
-        "name": "Climb Mount Kilimanjaro",
-        "image": "",
-        "location": "Tanzania",
-        "description": "Reach the summit of Africa's highest peak.",
-        "category": "Travel",
-        "risk": "High",
-        "isInList": false
-        },
-        {
-        "id": 9,
-        "name": "Visit the Eiffel Tower",
-        "image": "",
-        "location": "Paris, France",
-        "description": "Explore the world-renowned iron structure.",
-        "category": "Sight-Seeing",
-        "risk": "Low",
-        "isInList": false
-        },
-        {
-        "id": 10,
-        "name": "White Water Rafting in the Grand Canyon",
-        "image": "",
-        "location": "Arizona, USA",
-        "description": "Navigate the rapids of the Colorado River.",
-        "category": "Extreme Sports",
-        "risk": "High",
-        "isInList": false
-        },
-        {
-            "id": 11,
-            "name": "Visit the Taj Mahal",
-            "image": "",
-            "location": "Agra, India",
-            "description": "Explore the iconic symbol of Indian rich history.",
-            "category": "Sight-Seeing",
-            "risk": "Low",
-            "isInList": false
-          },
-          {
-            "id": 12,
-            "name": "Explore the Galapagos Islands",
-            "image": "",
-            "location": "Ecuador",
-            "description": "Encounter unique wildlife and pristine landscapes.",
-            "category": "Nature",
-            "risk": "Medium",
-            "isInList": false
-          },
-          {
-            "id": 13,
-            "name": "Visit the Colosseum",
-            "image": "",
-            "location": "Rome, Italy",
-            "description": "Step back in time at this iconic ancient amphitheater.",
-            "category": "Sight-Seeing",
-            "risk": "Low",
-            "isInList": false
-          },
-          {
-            "id": 14,
-            "name": "Paragliding in the Swiss Alps",
-            "image": "",
-            "location": "Switzerland",
-            "description": "Soar over breathtaking landscapes.",
-            "category": "Extreme Sports",
-            "risk": "High",
-            "isInList": false
-          },
-          {
-            "id": 15,
-            "name": "Visit Petra",
-            "image": "",
-            "location": "Jordan",
-            "description": "Explore the rose-red city with intricate architecture carved into the cliffs.",
-            "category": "Sight-Seeing",
-            "risk": "Medium",
-            "isInList": false
-          },
-          {
-            "id": 16,
-            "name": "Safari in Serengeti",
-            "image": "",
-            "location": "Tanzania",
-            "description": "Witness the majestic wildlife in their natural habitat.",
-            "category": "Nature",
-            "risk": "Medium",
-            "isInList": false
-          },
-          {
-            "id": 17,
-            "name": "Visit Sydney Opera House",
-            "image": "",
-            "location": "Sydney, Australia",
-            "description": "Explore the iconic masterpiece of late modern architecture.",
-            "category": "Sight-Seeing",
-            "risk": "Low",
-            "isInList": false
-          },
-          {
-            "id": 18,
-            "name": "Hang Gliding in Rio de Janeiro",
-            "image": "",
-            "location": "Rio de Janeiro, Brazil",
-            "description": "Glide over the scenic landscapes of Rio.",
-            "category": "Extreme Sports",
-            "risk": "High",
-            "isInList": false
-          },
-          {
-            "id": 19,
-            "name": "Visit the Acropolis",
-            "image": "",
-            "location": "Athens, Greece",
-            "description": "Discover the ancient citadel on a rocky outcrop above the city.",
-            "category": "Sight-Seeing",
-            "risk": "Low",
-            "isInList": false
-          },
-          {
-            "id": 20,
-            "name": "Explore the Canadian Rockies",
-            "image": "",
-            "location": "Canada",
-            "description": "Hike through the majestic mountain range.",
-            "category": "Nature",
-            "risk": "Medium",
-            "isInList": false
-          },
-          {
-            "id": 21,
-            "name": "Visit the Statue of Liberty",
-            "image": "",
-            "location": "New York City, USA",
-            "description": "See the universal symbol of freedom and democracy.",
-            "category": "Sight-Seeing",
-            "risk": "Low",
-            "isInList": false
-          },
-          {
-            "id": 22,
-            "name": "Zipline in Costa Rica",
-            "image": "",
-            "location": "Costa Rica",
-            "description": "Experience the thrill of ziplining through lush forests.",
-            "category": "Extreme Sports",
-            "risk": "Medium",
-            "isInList": false
-          },
-          {
-            "id": 23,
-            "name": "Visit the Leaning Tower of Pisa",
-            "image": "",
-            "location": "Pisa, Italy",
-            "description": "See the world-famous tilted tower.",
-            "category": "Sight-Seeing",
-            "risk": "Low",
-            "isInList": false
-          },
-          {
-            "id": 24,
-            "name": "Explore Yellowstone National Park",
-            "image": "",
-            "location": "Wyoming, USA",
-            "description": "Discover the first national park known for its wildlife and geothermal features.",
-            "category": "Nature",
-            "risk": "Medium",
-            "isInList": false
-          },
-          {
-            "id": 25,
-            "name": "Visit the Louvre Museum",
-            "image": "",
-            "location": "Paris, France",
-            "description": "Explore the world's largest art museum.",
-            "category": "Sight-Seeing",
-            "risk": "Low",
-            "isInList": false
-          },
-          {
-            "id": 26,
-            "name": "Surfing in Bali",
-            "image": "",
-            "location": "Bali, Indonesia",
-            "description": "Ride the waves on the beautiful beaches of Bali.",
-            "category": "Extreme Sports",
-            "risk": "Medium",
-            "isInList": false
-          },
-          {
-            "id": 27,
-            "name": "Visit Sydney Opera House",
-            "image": "",
-            "location": "Sydney, Australia",
-            "description": "Explore the iconic masterpiece of late modern architecture.",
-            "category": "Sight-Seeing",
-            "risk": "Low",
-            "isInList": false
-          },
-          {
-            "id": 28,
-            "name": "Explore the Sahara Desert",
-            "image": "",
-            "location": "Africa",
-            "description": "Experience the vastness and beauty of the world's largest hot desert.",
-            "category": "Nature",
-            "risk": "Medium",
-            "isInList": false
-          },
-          {
-            "id": 29,
-            "name": "Visit Hollywood Sign",
-            "image": "",
-            "location": "Los Angeles, USA",
-            "description": "Hike up to the world-famous sign and enjoy the city views.",
-            "category": "Sight-Seeing",
-            "risk": "Low",
-            "isInList": false
-          },
-          {
-            "id": 30,
-            "name": "Visit Buckingham Palace",
-            "image": "",
-            "location": "London, UK",
-            "description": "Witness the iconic residence of the British monarch.",
-            "category": "Sight-Seeing",
-            "risk": "Low",
-            "isInList": false
-          }
-    ]
+  ],
+  "bucketListItems": [
+    {
+      "id": 1,
+      "name": "Visit the Great Wall of China",
+      "image": "",
+      "location": "China",
+      "description": "Explore one of the most iconic landmarks in the world.",
+      "category": "Sight-Seeing",
+      "risk": "Low",
+      "isInList": false
+    },
+    {
+      "id": 2,
+      "name": "Skydiving",
+      "image": "",
+      "location": "Various",
+      "description": "Experience the thrill of jumping from an airplane.",
+      "category": "Extreme Sports",
+      "risk": "High",
+      "isInList": false
+    },
+    {
+      "id": 3,
+      "name": "See the Northern Lights",
+      "image": "",
+      "location": "Norway",
+      "description": "Witness the natural light display in the Earth's sky.",
+      "category": "Nature",
+      "risk": "Low",
+      "isInList": false
+    },
+    {
+      "id": 4,
+      "name": "Scuba Dive in the Great Barrier Reef",
+      "image": "",
+      "location": "Australia",
+      "description": "Explore the largest coral reef system in the world.",
+      "category": "Nature",
+      "risk": "Medium",
+      "isInList": false
+    },
+    {
+      "id": 5,
+      "name": "Visit the Pyramids of Giza",
+      "image": "",
+      "location": "Egypt",
+      "description": "Witness the architectural marvel of the ancient world.",
+      "category": "Sight-Seeing",
+      "risk": "Low",
+      "isInList": false
+    },
+    {
+      "id": 6,
+      "name": "Bungee Jumping in New Zealand",
+      "image": "",
+      "location": "New Zealand",
+      "description": "Jump from a platform in one of the most scenic locations.",
+      "category": "Extreme Sports",
+      "risk": "High",
+      "isInList": false
+    },
+    {
+      "id": 7,
+      "name": "Visit Machu Picchu",
+      "image": "",
+      "location": "Peru",
+      "description": "Explore the ancient Incan ruins set high in the Andes Mountains.",
+      "category": "Sight-Seeing",
+      "risk": "Medium",
+      "isInList": false
+    },
+    {
+      "id": 8,
+      "name": "Climb Mount Kilimanjaro",
+      "image": "",
+      "location": "Tanzania",
+      "description": "Reach the summit of Africa's highest peak.",
+      "category": "Travel",
+      "risk": "High",
+      "isInList": false
+    },
+    {
+      "id": 9,
+      "name": "Visit the Eiffel Tower",
+      "image": "",
+      "location": "Paris, France",
+      "description": "Explore the world-renowned iron structure.",
+      "category": "Sight-Seeing",
+      "risk": "Low",
+      "isInList": false
+    },
+    {
+      "id": 10,
+      "name": "White Water Rafting in the Grand Canyon",
+      "image": "",
+      "location": "Arizona, USA",
+      "description": "Navigate the rapids of the Colorado River.",
+      "category": "Extreme Sports",
+      "risk": "High",
+      "isInList": false
+    },
+    {
+      "id": 11,
+      "name": "Visit the Taj Mahal",
+      "image": "https://cdn.britannica.com/86/170586-050-AB7FEFAE/Taj-Mahal-Agra-India.jpg",
+      "location": "Agra, India",
+      "description": "Explore the iconic symbol of Indian rich history.",
+      "category": "Sight-Seeing",
+      "risk": "Low",
+      "isInList": false
+    },
+    {
+      "id": 12,
+      "name": "Explore the Galapagos Islands",
+      "image": "https://cdn.britannica.com/11/154211-050-FBEDB2C1/Bartolome-Island-Galapagos-Islands-Ecuador.jpg",
+      "location": "Ecuador",
+      "description": "Encounter unique wildlife and pristine landscapes.",
+      "category": "Nature",
+      "risk": "Medium",
+      "isInList": false
+    },
+    {
+      "id": 13,
+      "name": "Visit the Colosseum",
+      "image": "https://www.italiandualcitizenship.net/wp-content/uploads/2019/02/what-you-should-know-about-the-colosseum.jpg",
+      "location": "Rome, Italy",
+      "description": "Step back in time at this iconic ancient amphitheater.",
+      "category": "Sight-Seeing",
+      "risk": "Low",
+      "isInList": false
+    },
+    {
+      "id": 14,
+      "name": "Paragliding in the Swiss Alps",
+      "image": "https://thumbs.dreamstime.com/z/paragliding-swiss-alps-28217985.jpg",
+      "location": "Switzerland",
+      "description": "Soar over breathtaking landscapes.",
+      "category": "Extreme Sports",
+      "risk": "High",
+      "isInList": false
+    },
+    {
+      "id": 15,
+      "name": "Visit Petra",
+      "image": "https://www.ontheluce.com/wp-content/uploads/2012/11/petra-monastery.jpg",
+      "location": "Jordan",
+      "description": "Explore the rose-red city with intricate architecture carved into the cliffs.",
+      "category": "Sight-Seeing",
+      "risk": "Medium",
+      "isInList": false
+    },
+    {
+      "id": 16,
+      "name": "Safari in Serengeti",
+      "image": "https://files.adventure-life.com/14/80/52/kenya-zebras_serengeti/1300x820.1673896150.webp",
+      "location": "Tanzania",
+      "description": "Witness the majestic wildlife in their natural habitat.",
+      "category": "Nature",
+      "risk": "Medium",
+      "isInList": false
+    },
+    {
+      "id": 17,
+      "name": "Visit Sydney Opera House",
+      "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/17/3b/95/61/photo2jpg.jpg?w=1200&h=-1&s=1",
+      "location": "Sydney, Australia",
+      "description": "Explore the iconic masterpiece of late modern architecture.",
+      "category": "Sight-Seeing",
+      "risk": "Low",
+      "isInList": false
+    },
+    {
+      "id": 18,
+      "name": "Hang Gliding in Rio de Janeiro",
+      "image": "https://cdn.getyourguide.com/img/tour/5cd989c1dc17b.jpeg/148.jpg",
+      "location": "Rio de Janeiro, Brazil",
+      "description": "Glide over the scenic landscapes of Rio.",
+      "category": "Extreme Sports",
+      "risk": "High",
+      "isInList": false
+    },
+    {
+      "id": 19,
+      "name": "Visit the Acropolis",
+      "image": "https://www.gpsmycity.com/img/gd_cover/1587.jpg",
+      "location": "Athens, Greece",
+      "description": "Discover the ancient citadel on a rocky outcrop above the city.",
+      "category": "Sight-Seeing",
+      "risk": "Low",
+      "isInList": false
+    },
+    {
+      "id": 20,
+      "name": "Explore the Canadian Rockies",
+      "image": "https://media.gadventures.com/media-server/cache/04/5b/045b8dceb504e29d095e600582def48e.jpg",
+      "location": "Canada",
+      "description": "Hike through the majestic mountain range.",
+      "category": "Nature",
+      "risk": "Medium",
+      "isInList": false
+    },
+    {
+      "id": 21,
+      "name": "Visit the Statue of Liberty",
+      "image": "",
+      "location": "New York City, USA",
+      "description": "See the universal symbol of freedom and democracy.",
+      "category": "Sight-Seeing",
+      "risk": "Low",
+      "isInList": false
+    },
+    {
+      "id": 22,
+      "name": "Zipline in Costa Rica",
+      "image": "",
+      "location": "Costa Rica",
+      "description": "Experience the thrill of ziplining through lush forests.",
+      "category": "Extreme Sports",
+      "risk": "Medium",
+      "isInList": false
+    },
+    {
+      "id": 23,
+      "name": "Visit the Leaning Tower of Pisa",
+      "image": "",
+      "location": "Pisa, Italy",
+      "description": "See the world-famous tilted tower.",
+      "category": "Sight-Seeing",
+      "risk": "Low",
+      "isInList": false
+    },
+    {
+      "id": 24,
+      "name": "Explore Yellowstone National Park",
+      "image": "",
+      "location": "Wyoming, USA",
+      "description": "Discover the first national park known for its wildlife and geothermal features.",
+      "category": "Nature",
+      "risk": "Medium",
+      "isInList": false
+    },
+    {
+      "id": 25,
+      "name": "Visit the Louvre Museum",
+      "image": "",
+      "location": "Paris, France",
+      "description": "Explore the world's largest art museum.",
+      "category": "Sight-Seeing",
+      "risk": "Low",
+      "isInList": false
+    },
+    {
+      "id": 26,
+      "name": "Surfing in Bali",
+      "image": "",
+      "location": "Bali, Indonesia",
+      "description": "Ride the waves on the beautiful beaches of Bali.",
+      "category": "Extreme Sports",
+      "risk": "Medium",
+      "isInList": false
+    },
+    {
+      "id": 27,
+      "name": "Visit Sydney Opera House",
+      "image": "",
+      "location": "Sydney, Australia",
+      "description": "Explore the iconic masterpiece of late modern architecture.",
+      "category": "Sight-Seeing",
+      "risk": "Low",
+      "isInList": false
+    },
+    {
+      "id": 28,
+      "name": "Explore the Sahara Desert",
+      "image": "",
+      "location": "Africa",
+      "description": "Experience the vastness and beauty of the world's largest hot desert.",
+      "category": "Nature",
+      "risk": "Medium",
+      "isInList": false
+    },
+    {
+      "id": 29,
+      "name": "Visit Hollywood Sign",
+      "image": "",
+      "location": "Los Angeles, USA",
+      "description": "Hike up to the world-famous sign and enjoy the city views.",
+      "category": "Sight-Seeing",
+      "risk": "Low",
+      "isInList": false
+    },
+    {
+      "id": 30,
+      "name": "Visit Buckingham Palace",
+      "image": "",
+      "location": "London, UK",
+      "description": "Witness the iconic residence of the British monarch.",
+      "category": "Sight-Seeing",
+      "risk": "Low",
+      "isInList": false
+    }
+  ]
 }

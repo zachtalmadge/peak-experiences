@@ -1,8 +1,8 @@
 import React from 'react'
+import {Link} from "react-router-dom"
 
 function Details({name, image, description, category, risk, id}) {
     
-console.log("this is coming from the details component:",name, image, description, category, risk, id)
   return (
     <div>
     <img src={image} alt={name} />
@@ -12,9 +12,11 @@ console.log("this is coming from the details component:",name, image, descriptio
       <p>{risk}</p>
       <p>{description}</p>
     </div>
+    <Link to={'/activites'}>
     <button data-activity-id={id}>
-      Add to Bucket List
+     All Activities
     </button>
+    </Link>
   </div>
   )
 }
