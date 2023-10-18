@@ -1,6 +1,6 @@
-import { useOutletContext } from "react-router";
+// import { useOutletContext } from "react-router";
 import BucketListCard from "../../Components/BucketListCard";
-import { useEffect, useState } from "react";
+// import { useEffect, useState } from "react";
 
 const UserList = () => {
   return (
