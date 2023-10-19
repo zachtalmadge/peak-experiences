@@ -1,7 +1,12 @@
 import { useInput } from '../../Hooks/customHooks'
+import { useOutletContext } from 'react-router'
 import Container from 'react-bootstrap/Container'
 
 const Form = () => {
+
+    let [ activites, , , , setActivites ] = useOutletContext()
+
+    console.log(setActivites)
 
     let [ nameProp, resetNameProp ] = useInput('')
     let [ imageProp, resetImageProp ] = useInput('')
@@ -33,7 +38,7 @@ const Form = () => {
         }
 
         for (let key in activity){
-            if (key !== 'isInList' && key === ''){
+            if (key !== 'isInList' && activity[key] === ''){
                 return alert('Please make sure all inputs are valid!')
             }
         }
@@ -45,6 +50,7 @@ const Form = () => {
         if (response.status === 201){
             alert('Your Bucket List Activity has been added to our database!')
             resetFormValues()
+            setActivites([...activites, activity])
         } else {
             console.log("Oh no! There has been an error!")
         }

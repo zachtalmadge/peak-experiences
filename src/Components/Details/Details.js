@@ -29,7 +29,7 @@ function Details({ name, image, description, risk, id, location, isInList }) {
           <h1>{name}</h1>
           <p className="lead">Location: {location}</p>
           <p className="lead">Risk: {risk}</p>
-          <p className="lead">{description}</p>
+          <p className="lead">Description: {description}</p>
           {itemInList ? (
             <Button variant="danger" onClick={handleClick}>
               Remove From List

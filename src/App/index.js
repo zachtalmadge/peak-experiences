@@ -76,7 +76,7 @@ const App = () => {
   return (
     <>
       <NavBar />
-      <Outlet context={[activites, userList, addToUserList, removeFromUserList]} />
+      <Outlet context={[activites, userList, addToUserList, removeFromUserList, setActivites]} />
       <Footer />
     </>
   );

@@ -1,5 +1,26 @@
 {
-  "userList": [],
+  "userList": [
+    {
+      "id": 2,
+      "name": "Skydiving",
+      "image": "https://www.bankrate.com/2021/10/29124754/life-skydivers-featured.jpg?auto=webp&optimize=high&crop=16:9",
+      "location": "Various",
+      "description": "Experience the thrill of jumping from an airplane.",
+      "category": "Extreme Sports",
+      "risk": "High",
+      "isInList": true
+    },
+    {
+      "id": 9,
+      "name": "Visit the Eiffel Tower",
+      "image": "https://www.travelandleisure.com/thmb/SPUPzO88ZXq6P4Sm4mC5Xuinoik=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/eiffel-tower-paris-france-EIFFEL0217-6ccc3553e98946f18c893018d5b42bde.jpg",
+      "location": "Paris, France",
+      "description": "Explore the world-renowned iron structure.",
+      "category": "Sight-Seeing",
+      "risk": "Low",
+      "isInList": true
+    }
+  ],
   "bucketListItems": [
     {
       "id": 1,
@@ -19,7 +40,7 @@
       "description": "Experience the thrill of jumping from an airplane.",
       "category": "Extreme Sports",
       "risk": "High",
-      "isInList": false
+      "isInList": true
     },
     {
       "id": 3,
@@ -89,7 +110,7 @@
       "description": "Explore the world-renowned iron structure.",
       "category": "Sight-Seeing",
       "risk": "Low",
-      "isInList": false
+      "isInList": true
     },
     {
       "id": 10,

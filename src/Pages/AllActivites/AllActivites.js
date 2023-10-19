@@ -25,7 +25,6 @@ const AllActivites = () => {
       return category ? activity.category.toLowerCase() === category : activity;
     })
     .filter((activity) => {
-      console.log(risk, activity.risk)
       return risk ? activity.risk.toLowerCase() === risk : activity
     });
 
