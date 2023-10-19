@@ -1,83 +1,58 @@
-Peak Experiences
-Peak Experiences Banner
+# Peak Experiences
 
-Peak Experiences is a React application designed to inspire and facilitate the creation of personal bucket lists. Users can explore a variety of exciting activities, learn more about them, and add them to their own customized list.
-
-Table of Contents
-Features
-Getting Started
-Prerequisites
-Installation
-Usage
-Contributing
-Authors
-License
-Acknowledgements
-Features
-Explore Activities: Browse through a curated list of unique and exhilarating activities.
-Custom Lists: Create and manage your own personalized bucket list.
-Learn More: Dive deeper into each activity with detailed descriptions, images, and resources.
-User Profiles: Create a profile to save, manage, and share your bucket list.
-Getting Started
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
-
-Prerequisites
-Node.js
-npm or Yarn
-Installation
-Clone the repository
-sh
-Copy code
-git clone https://github.com/your-username/peak-experiences.git
-cd peak-experiences
-Install dependencies
-Using npm:
-
-sh
-Copy code
-npm install
-Using Yarn:
-
-sh
-Copy code
-yarn install
-Start the development server
-Using npm:
-
-sh
-Copy code
-npm start
-Using Yarn:
-
-sh
-Copy code
-yarn start
-The application will be available at http://localhost:3000.
-
-Usage
-Detailed usage instructions, including screenshots and user guides, are available in the Wiki.
-
-Contributing
-We welcome contributions from the community. Please read our CONTRIBUTING.md for details on our code of conduct and the process for submitting pull requests.
-
-Authors
-Landon Cramer - Landon's GitHub
-Alberto Sierra - Alberto's GitHub
-Zachary Talmadge - Zachary's GitHub
-See also the list of contributors who participated in this project.
-
-License
-This project is licensed under the MIT License - see the LICENSE.md file for details.
-
-Acknowledgements
-React - The web framework used
-Create React App - Bootstrapped the project
-Material-UI - UI components
-Note: Replace 'your-username' with the actual GitHub username where the repository is hosted, and you can replace the banner URL './banner.png' with the actual path to your project’s banner.
-
-Feel free to customize this README to fit the specific needs and details of your project!
+Unlock a world of unforgettable experiences with Peak Experiences, your personalized gateway to explore, discover, and track awe-inspiring activities tailored to turn your dream bucket list into a journey of a lifetime!"
 
 
 
+## Overview
+Embark on a journey of discovery, adventure, and personal fulfillment with our cutting-edge Peak Experiences app. Designed for dreamers, adventurers, and everyone in between, this app is your passport to a world brimming with possibilities, offering a curated selection of awe-inspiring activities and experiences waiting to be explored. Users can effortlessly navigate through a comprehensive list of bucket list activities, each entry a gateway to a new horizon, a story untold, or a dream unrealized. Every activity is a call to step out of your comfort zone, offering a unique blend of excitement, discovery, and transformation.
+
+Dive deeper into each activity with just a tap, unlocking a treasure trove of information, insights, and inspiration. The Peak Experiences app is not just about exploration but also a platform for creation. Users can personalize their journey by adding bucket list items to a customized list, tailoring their adventures to fit their aspirations, and desires. Have an epic activity in mind that's not on our list? You're invited to contribute to our ever-growing database, making the Peak Experiences a community-driven experience, enriched by the diverse and dynamic spirits of its users. Your next chapter of unforgettable moments and cherished memories is just a click away. Welcome to the Peak Experiences - where dreams meet reality.
 
 
+## Technologies Used
+
+  - HTML
+  - CSS
+  - Javascript
+  - React.js
+  - React Bootstrap
+
+## Key Features
+
+### 1. Submit Your Own Bucket List Idea
+   - **User-Friendly Submission Form:** Utilize an intuitive form to easily submit your unique bucket list ideas. Share your desired adventures, experiences, and milestones with a community of like-minded individuals.
+   - **Instant Sharing:** Once submitted, see your bucket list ideas instantly appear on the platform, ready for others to discover and add to their own lists.
+
+### 2. Filter Bucket List Items by Category
+   - **Diverse Categories:** Explore a wide range of categories, from travel and adventure to personal development, hobbies, and more. Find the experiences that align with your passions and interests.
+   - **Dynamic Filtering:** Quickly and effortlessly filter bucket list items. A responsive and user-friendly interface ensures you can easily navigate through diverse and inspiring content.
+
+### 3. Build Your Own Bucket List
+   - **Personalized Experience:** Create a customized bucket list that reflects your unique aspirations and dreams. Add items from the community pool or input your own to curate a list that’s tailored just for you.
+   - **Interactive List Building:** Enjoy a dynamic and interactive experience as you build your list. Easily add, edit, and organize your items to visualize your future adventures at a glance.
+
+## Additional Information
+
+Your bucket list is more than a collection of items; it’s a reflection of your deepest desires and grandest adventures. Our application is designed to not only help you curate your own list but also to discover new, exciting, and sometimes unexpected aspirations shared by others. Dive in, explore, and start building the life of adventures you’ve always dreamed of!
+
+## Installation
+
+1. Open a terminal in the <b>root</b> directory and run:
+```sh
+$ npx json-server --watch .db.json
+```
+2. Open a terminal in the <b>root</b> directory and run:
+```sh
+$ npm start
+```
+
+3. Build your Bucket List!
+
+## Contributing
+- <b>Landon Cramer
+- Alberto Sienna
+- Zachary Talmadge </b>
+
+## License
+MIT

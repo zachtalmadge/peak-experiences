@@ -23,21 +23,21 @@ const App = () => {
 
     let newActivites = activites.map(act => {
       if (act.id === activity.id) {
-        return { ...act , isInList: true}
+        return { ...act, isInList: true }
       } else {
         return act
       }
-    }) 
+    })
 
     setActivites(newActivites)
 
     // perform fetch calls to persist to database
 
-    const headers = {"content-type": "application/json"}
-    const body = JSON.stringify({...activity, isInList: true})
+    const headers = { "content-type": "application/json" }
+    const body = JSON.stringify({ ...activity, isInList: true })
 
-    fetch(URL2, {method:"POST", headers, body})
-    fetch(`${URL1}/${activity.id}`, {method: "PATCH", headers, body})
+    fetch(URL2, { method: "POST", headers, body })
+    fetch(`${URL1}/${activity.id}`, { method: "PATCH", headers, body })
 
     alert(`${activity.name} has been added to your bucket list!`)
 
@@ -58,17 +58,17 @@ const App = () => {
         return act
       }
     })
-setActivites(newActivites)
+    setActivites(newActivites)
 
     // perform fetch calls to persist to database
 
     let activity = activites.find(act => act.id === id)
 
-    const headers = {"content-type": "application/json"}
-    const body = JSON.stringify({...activity, isInList: false})
+    const headers = { "content-type": "application/json" }
+    const body = JSON.stringify({ ...activity, isInList: false })
 
-    fetch(`${URL2}/${activity.id}`, {method:"DELETE"})
-    fetch(`${URL1}/${activity.id}`, {method: "PATCH", headers, body})
+    fetch(`${URL2}/${activity.id}`, { method: "DELETE" })
+    fetch(`${URL1}/${activity.id}`, { method: "PATCH", headers, body })
 
     alert(`${activity.name} has been removed to your bucket list!`)
   }
