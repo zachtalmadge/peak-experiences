@@ -5,7 +5,8 @@ Unlock a world of unforgettable experiences with Peak Experiences, your personal
 
 
 ## Overview
-![Screen Recording 2023-10-19 at 2 54 42 PM (1)](https://github.com/zachtalmadge/peak-experiences/assets/124002265/3a0b29e8-246b-47fc-bbad-14031c5fea2a)
+![Screen Recording 2023-10-19 at 3 14 43 PM (1)](https://github.com/zachtalmadge/peak-experiences/assets/124002265/e7f44136-3ff3-4610-8445-becb56dd180c)
+
 
 Embark on a journey of discovery, adventure, and personal fulfillment with our cutting-edge Peak Experiences app. Designed for dreamers, adventurers, and everyone in between, this app is your passport to a world brimming with possibilities, offering a curated selection of awe-inspiring activities and experiences waiting to be explored. Users can effortlessly navigate through a comprehensive list of bucket list activities, each entry a gateway to a new horizon, a story untold, or a dream unrealized. Every activity is a call to step out of your comfort zone, offering a unique blend of excitement, discovery, and transformation.
 
