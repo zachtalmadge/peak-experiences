@@ -10,10 +10,10 @@ import Col from "react-bootstrap/Col";
 
 const AllActivites = () => {
 
-  let [activites] = useOutletContext();
+  let [ activites ] = useOutletContext();
 
-  let [category, setCategory] = useState("");
-  let [risk, setRisk] = useState("")
+  let [ category, setCategory ] = useState("");
+  let [ risk, setRisk ] = useState("")
 
   const changeCategory = (e) => {
     setCategory(e.target.value);
@@ -23,6 +23,7 @@ const AllActivites = () => {
     setRisk(e.target.value)
   }
 
+  // filter by category then filter by risk
   let filteredActivites = activites
     .filter((activity) => {
       return category ? activity.category.toLowerCase() === category : activity;
@@ -37,6 +38,7 @@ const AllActivites = () => {
     <>
       <Container className="my-5">
         <h1 className="text-center">All Activites</h1>
+
         <Row>
           <Col md={4} className="d-flex justify-content-center">
             <RiskLevelLegend/>
@@ -48,6 +50,7 @@ const AllActivites = () => {
             <FilterByRisk changeRiskFilter={changeRiskFilter}/>
           </Col>
         </Row>
+
         <Row>
           {filteredActivites.map((activity, i) => (
             <Col key={i} md={4}>
@@ -55,6 +58,7 @@ const AllActivites = () => {
             </Col>
           ))}
         </Row>
+
       </Container>
     </>
   );

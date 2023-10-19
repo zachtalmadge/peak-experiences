@@ -14,12 +14,10 @@ const App = () => {
   const { data: userList, setData: setUserActivies } = useFetch(URL2)
 
   const addToUserList = async (id) => {
-    console.log('ADD FUNCTION US RUNNING')
-
-    // set state for both userList and activitesList
-
+    
     let activity = activites.find(act => act.id === id)
-    setUserActivies([activity, ...userList])
+    // set state for both userList and activitesList
+    setUserActivies([ activity, ...userList ])
 
     let newActivites = activites.map(act => {
       if (act.id === activity.id) {
@@ -28,14 +26,12 @@ const App = () => {
         return act
       }
     })
-
     setActivites(newActivites)
-
-    // perform fetch calls to persist to database
-
+    
     const headers = { "content-type": "application/json" }
     const body = JSON.stringify({ ...activity, isInList: true })
-
+    
+    // perform fetch calls to persist to database
     fetch(URL2, { method: "POST", headers, body })
     fetch(`${URL1}/${activity.id}`, { method: "PATCH", headers, body })
 
@@ -44,11 +40,9 @@ const App = () => {
   } // end function
 
   const removeFromUserList = (id) => {
-    console.log('DELETE FUNCTION IS RUNNING')
-
-    // set state for both userList and activitesList
-
+    
     let newUserActivites = userList.filter(act => act.id !== id)
+    // set state for both userList and activitesList
     setUserActivies(newUserActivites)
 
     let newActivites = activites.map(act => {
@@ -60,16 +54,15 @@ const App = () => {
     })
     setActivites(newActivites)
 
-    // perform fetch calls to persist to database
-
     let activity = activites.find(act => act.id === id)
-
+    
     const headers = { "content-type": "application/json" }
     const body = JSON.stringify({ ...activity, isInList: false })
-
+    
+    // perform fetch calls to persist to database
     fetch(`${URL2}/${activity.id}`, { method: "DELETE" })
     fetch(`${URL1}/${activity.id}`, { method: "PATCH", headers, body })
-
+    
     alert(`${activity.name} has been removed to your bucket list!`)
   } // end function
 

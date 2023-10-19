@@ -8,29 +8,8 @@ import { Link } from 'react-router-dom'
 
 let URL1 = "http://localhost:3000/bucketListItems";
 
-const FeaturedActivites = () => {
-
-    let { data } = useFetch(URL1)
-
-    function pickTwoDistinctRandomElements(arr) {
-        if (arr.length < 2) {
-            console.log('Not enough elements in the array to pick two distinct items.');
-            return null;
-        }
+const FeaturedActivites = ({ featured }) => {
     
-        const index1 = Math.floor(Math.random() * arr.length);
-        let index2;
-    
-        do {
-            index2 = Math.floor(Math.random() * arr.length);
-        } while (index1 === index2);
-    
-        return [arr[index1], arr[index2]];
-    }
-
-    let featured = pickTwoDistinctRandomElements(data)
-    
-
     return (
         <Container className="my-5">
             <h1 className="text-center">Featured Activites</h1>

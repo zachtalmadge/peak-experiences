@@ -10,9 +10,9 @@ function BucketListCard({ image, name, location, risk, id }) {
       <Card.Img variant="top" src={image} height="350" />
       <Card.Body>
         <Card.Title>🌀 {name}</Card.Title>
-        <hr/>
+        <hr />
         <Card.Text>🌎 {location}</Card.Text>
-        <hr/>
+        <hr />
         <Link to={`/activites/${id}`}>
           <Button variant="primary">Details</Button>
         </Link>

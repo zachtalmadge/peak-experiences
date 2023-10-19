@@ -6,17 +6,16 @@ import Col from "react-bootstrap/Col";
 import Button from "react-bootstrap/Button";
 
 function Details({ name, image, description, risk, id, location, isInList }) {
-  const [, , addToUserList, removeFromUserList] = useOutletContext();
-  let [itemInList, setItemInList] = useState(isInList);
+  const [ , , addToUserList, removeFromUserList ] = useOutletContext();
+  let [ itemInList, setItemInList ] = useState(isInList);
 
   let handleClick = () => {
     if (itemInList) {
-      setItemInList((itemInList) => !itemInList);
       removeFromUserList(id);
     } else {
-      setItemInList((itemInList) => !itemInList);
       addToUserList(id);
     }
+    setItemInList((itemInList) => !itemInList);
   };
 
   return (
@@ -28,11 +27,11 @@ function Details({ name, image, description, risk, id, location, isInList }) {
         <Col>
           <h1>{name}</h1>
           <hr />
-          <p className="lead"><i className="fa fa-map-marker-alt" style={{color: "orangered"}}></i> Location: {location}</p>
+          <p className="lead"><i className="fa fa-map-marker-alt" style={{ color: "orangered" }}></i> Location: {location}</p>
           <hr />
           <p className="lead"><i class="fa fa-exclamation-triangle"></i> Risk: {risk}</p>
           <hr />
-          <p className="lead"><i class="fa fa-info-circle" style={{color: "darkblue"}}></i> Description: {description}</p>
+          <p className="lead"><i class="fa fa-info-circle" style={{ color: "darkblue" }}></i> Description: {description}</p>
           <hr />
           {itemInList ? (
             <Button size="lg" variant="danger" onClick={handleClick}>

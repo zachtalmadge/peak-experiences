@@ -6,8 +6,6 @@ const Form = () => {
 
     let [ activites, , , , setActivites ] = useOutletContext()
 
-    console.log(setActivites)
-
     let [ nameProp, resetNameProp ] = useInput('')
     let [ imageProp, resetImageProp ] = useInput('')
     let [ locationProp, resetLocationProp ] = useInput('')
@@ -69,7 +67,7 @@ const Form = () => {
                             className="form-control" 
                             id="name" 
                             name="name" 
-                             
+                            required
                         />
                     </div>
 
@@ -81,7 +79,7 @@ const Form = () => {
                             className="form-control" 
                             id="image" 
                             name="image" 
-                             
+                            required
                         />
                     </div>
 
@@ -94,7 +92,7 @@ const Form = () => {
                             id="location" 
                             name="location" 
                             placeholder="Name of country" 
-                             
+                            required
                         />
                     </div>
 
@@ -107,7 +105,7 @@ const Form = () => {
                             name="description" 
                             rows="3" 
                             placeholder="Enter a brief description of the activity..." 
-                            
+                            required
                         ></textarea>
                     </div>
 
@@ -119,7 +117,7 @@ const Form = () => {
                                 className="form-select" 
                                 id="categories" 
                                 name="categories" 
-                                
+                                required
                             >
                                 <option value="">Please select a category</option>
                                 <option value="Nature">Nature</option>
@@ -135,7 +133,7 @@ const Form = () => {
                                 className="form-select" 
                                 id="risk" 
                                 name="risk" 
-                                
+                                required
                             >
                                 <option value="">Please select a risk level</option>
                                 <option value="Low">Low</option>
