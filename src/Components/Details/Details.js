@@ -29,9 +29,9 @@ function Details({ name, image, description, risk, id, location, isInList }) {
           <hr />
           <p className="lead"><i className="fa fa-map-marker-alt" style={{ color: "orangered" }}></i> Location: {location}</p>
           <hr />
-          <p className="lead"><i class="fa fa-exclamation-triangle"></i> Risk: {risk}</p>
+          <p className="lead"><i className="fa fa-exclamation-triangle"></i> Risk: {risk}</p>
           <hr />
-          <p className="lead"><i class="fa fa-info-circle" style={{ color: "darkblue" }}></i> Description: {description}</p>
+          <p className="lead"><i className="fa fa-info-circle" style={{ color: "darkblue" }}></i> Description: {description}</p>
           <hr />
           {itemInList ? (
             <Button size="lg" variant="danger" onClick={handleClick}>

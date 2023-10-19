@@ -6,7 +6,6 @@ import Col from "react-bootstrap/Col";
 
 const UserList = () => {
   const [, userList] = useOutletContext();
-  console.log(userList)
 
   return (
     <>
