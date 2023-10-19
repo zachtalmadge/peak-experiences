@@ -32,7 +32,7 @@ const AllActivites = () => {
 
   return (
     <>
-      <Container>
+      <Container className="my-5">
         <FilterByCategory changeCategory={changeCategory} />
         <FilterByRisk changeRiskFilter={changeRiskFilter}/>
         <Row>

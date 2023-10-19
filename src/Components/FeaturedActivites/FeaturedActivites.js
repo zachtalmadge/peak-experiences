@@ -36,11 +36,8 @@ const FeaturedActivites = () => {
                 <Col>
                     {featured ? <BucketListCard {...featured[0]} /> : '' }
                 </Col>
-            </Row>
-            <Row>
                 <Col>
-                {featured ? <BucketListCard {...featured[1]} /> : '' }
-
+                    {featured ? <BucketListCard {...featured[1]} /> : '' }
                 </Col>
             </Row>
         </Container>

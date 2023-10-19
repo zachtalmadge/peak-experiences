@@ -27,15 +27,19 @@ function Details({ name, image, description, risk, id, location, isInList }) {
         </Col>
         <Col>
           <h1>{name}</h1>
+          <hr />
           <p className="lead">Location: {location}</p>
+          <hr />
           <p className="lead">Risk: {risk}</p>
+          <hr />
           <p className="lead">Description: {description}</p>
+          <hr />
           {itemInList ? (
-            <Button variant="danger" onClick={handleClick}>
+            <Button size="lg" variant="danger" onClick={handleClick}>
               Remove From List
             </Button>
           ) : (
-            <Button variant="warning" onClick={handleClick}>
+            <Button size="lg" variant="warning" onClick={handleClick}>
               Add To List
             </Button>
           )}
