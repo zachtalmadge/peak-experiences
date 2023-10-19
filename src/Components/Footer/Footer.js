@@ -17,6 +17,7 @@ const Footer = () => {
                     <Col> 
                         <p>Brought to you by</p>
                         <img className="img-fluid rounded" src="./assets/fis_logo.png" alt="Flatiron school logo"/>
+                        <p className="mt-3">Flatiron School</p>
                     </Col>
                     <Col>
                         <p>Social Media</p>

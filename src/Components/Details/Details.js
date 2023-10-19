@@ -28,11 +28,11 @@ function Details({ name, image, description, risk, id, location, isInList }) {
         <Col>
           <h1>{name}</h1>
           <hr />
-          <p className="lead">Location: {location}</p>
+          <p className="lead"><i className="fa fa-map-marker-alt" style={{color: "orangered"}}></i> Location: {location}</p>
           <hr />
-          <p className="lead">Risk: {risk}</p>
+          <p className="lead"><i class="fa fa-exclamation-triangle"></i> Risk: {risk}</p>
           <hr />
-          <p className="lead">Description: {description}</p>
+          <p className="lead"><i class="fa fa-info-circle" style={{color: "darkblue"}}></i> Description: {description}</p>
           <hr />
           {itemInList ? (
             <Button size="lg" variant="danger" onClick={handleClick}>

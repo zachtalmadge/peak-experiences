@@ -8,7 +8,7 @@ const Jumbotron = () => {
                 <h1 className="display-4">Peak Experiences</h1>
                 <p className="lead my-4">Unlock a world of unforgettable memories with Peak Experiences, your gateway to explore, discover, and track awe-inspiring activities tailored to turn your dream bucket list into a journey of a lifetime!</p>
                 <Link to="/activites">
-                    <Button variant="warning" size="lg">Explore Activites</Button>
+                    <Button className="mt-4" variant="warning" size="lg">Explore Activites <i className="fa fa-arrow-right"></i></Button>
                 </Link>
             </div>
         </div>

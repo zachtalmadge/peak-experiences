@@ -1,16 +1,5 @@
 {
-  "userList": [
-    {
-      "id": 9,
-      "name": "Visit the Eiffel Tower",
-      "image": "https://www.travelandleisure.com/thmb/SPUPzO88ZXq6P4Sm4mC5Xuinoik=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/eiffel-tower-paris-france-EIFFEL0217-6ccc3553e98946f18c893018d5b42bde.jpg",
-      "location": "Paris, France",
-      "description": "Explore the world-renowned iron structure.",
-      "category": "Sight-Seeing",
-      "risk": "Low",
-      "isInList": true
-    }
-  ],
+  "userList": [],
   "bucketListItems": [
     {
       "id": 1,
@@ -100,7 +89,7 @@
       "description": "Explore the world-renowned iron structure.",
       "category": "Sight-Seeing",
       "risk": "Low",
-      "isInList": true
+      "isInList": false
     },
     {
       "id": 10,
@@ -264,7 +253,7 @@
     },
     {
       "id": 26,
-      "name": "Surfing in Bali",
+      "name": "Surf in Bali",
       "image": "https://traveler.marriott.com/wp-content/uploads/2017/10/Bali-Surfers-1536x864.jpg",
       "location": "Bali, Indonesia",
       "description": "Ride the waves on the beautiful beaches of Bali.",

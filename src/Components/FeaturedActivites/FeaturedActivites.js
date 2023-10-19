@@ -1,10 +1,12 @@
 import Container from 'react-bootstrap/Container'
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
+import Button from 'react-bootstrap/Button'
 import BucketListCard from '../BucketListCard'
 import { useFetch } from '../../Hooks/customHooks'
-let URL1 = "http://localhost:3000/bucketListItems";
+import { Link } from 'react-router-dom'
 
+let URL1 = "http://localhost:3000/bucketListItems";
 
 const FeaturedActivites = () => {
 
@@ -38,6 +40,15 @@ const FeaturedActivites = () => {
                 </Col>
                 <Col>
                     {featured ? <BucketListCard {...featured[1]} /> : '' }
+                </Col>
+            </Row>
+            <Row className="text-center my-5">
+                <Col>
+                    <Link to="/activites">
+                        <Button variant="warning" size="lg">
+                            View More Activites <i className="fa fa-arrow-right"></i>
+                        </Button>
+                    </Link>
                 </Col>
             </Row>
         </Container>

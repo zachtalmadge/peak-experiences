@@ -12,11 +12,11 @@ const NavBar = () => {
       </button>
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
           <ul className="navbar-nav mr-auto">
-            <li className="nav-item active">
-              <NavLink className="nav-link" to="/mybucketlist" >My Bucket List</NavLink>
-            </li>
             <li className="nav-item">
               <NavLink className="nav-link" to="/activites" >All Activites</NavLink>
+            </li>
+            <li className="nav-item active">
+              <NavLink className="nav-link" to="/mybucketlist" >My Bucket List</NavLink>
             </li>
             <li className="nav-item">
               <NavLink className="nav-link" to="/form">Submit Activity</NavLink>

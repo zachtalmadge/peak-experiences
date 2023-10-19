@@ -32,10 +32,10 @@ const routes = [
         path: "/form",
         element: <Form />,
       },
-      {
-        path: "*",
-        element: <ErrorPage />
-      }
+      // {
+      //   path: "/*",
+      //   element: <ErrorPage />
+      // }
     ],
   },
 ];
