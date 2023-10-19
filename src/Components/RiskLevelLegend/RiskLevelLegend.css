@@ -1,0 +1,31 @@
+.risk-level-legend {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: max-content;
+  }
+  
+  .legend-item {
+    display: flex;
+    align-items: center;
+    margin: 5px 0;
+  }
+  
+  .color-box {
+    width: 20px;
+    height: 20px;
+    border: 1px solid #000;
+    margin-right: 10px;
+  }
+  
+  .green {
+    background-color: green;
+  }
+  
+  .yellow {
+    background-color: yellow;
+  }
+  
+  .red {
+    background-color: red;
+  }

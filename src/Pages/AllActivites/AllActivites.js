@@ -3,6 +3,7 @@ import { useOutletContext } from "react-router";
 import FilterByCategory from "../../Components/FilterByCategory";
 import FilterByRisk from '../../Components/FilterByRisk'
 import BucketListCard from "../../Components/BucketListCard";
+import RiskLevelLegend from "../../Components/RiskLevelLegend/RiskLevelLegend";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
@@ -33,8 +34,21 @@ const AllActivites = () => {
   return (
     <>
       <Container className="my-5">
-        <FilterByCategory changeCategory={changeCategory} />
-        <FilterByRisk changeRiskFilter={changeRiskFilter}/>
+        <h1 className="text-center">All Activites</h1>
+        <Row>
+          <Col md={4} className="d-flex justify-content-center">
+            <RiskLevelLegend/>
+          </Col>
+
+          <Col md={4} className="d-flex justify-content-center">
+            <FilterByCategory changeCategory={changeCategory} />
+          </Col>
+
+          <Col md={4} className="d-flex justify-content-center">
+            <FilterByRisk changeRiskFilter={changeRiskFilter}/>
+          </Col>
+
+        </Row>
         <Row>
           {filteredActivites.map((activity, i) => (
             <Col key={i} md={4}>
