@@ -25,17 +25,13 @@ const routes = [
         element: <ActivityDetails />,
       },
       {
-        path: "/mybucketlist",
-        element: <UserList />,
-      },
-      {
-        path: "/form",
+        path: "/activties/submit",
         element: <Form />,
       },
-      // {
-      //   path: "/*",
-      //   element: <ErrorPage />
-      // }
+      {
+        path: "/mybucketlist",
+        element: <UserList />,
+      }
     ],
   },
 ];

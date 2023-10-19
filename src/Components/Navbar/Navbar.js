@@ -19,7 +19,7 @@ const NavBar = () => {
               <NavLink className="nav-link" to="/mybucketlist" >My Bucket List</NavLink>
             </li>
             <li className="nav-item">
-              <NavLink className="nav-link" to="/form">Submit Activity</NavLink>
+              <NavLink className="nav-link" to="/activties/submit">Submit Activity</NavLink>
             </li>
           </ul>
         </div>

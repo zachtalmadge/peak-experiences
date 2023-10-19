@@ -1,4 +1,6 @@
 import './ErrorPage.css';
+import Navbar from '../../Components/Navbar'
+import Footer from '../../Components/Footer';
 import { useNavigate} from "react-router-dom";
 
 const ErrorPage = () => {
@@ -6,6 +8,8 @@ const ErrorPage = () => {
   const navigate = useNavigate()
 
   return (
+    <>
+    <Navbar/>
     <div className="error-container">
       <img className="img-fluid rounded mb-4" width="700" src="./assets/confused_computer.png" alt="confused computer" />
       <h1 className="error-title">Whoops... Looks like nothing is here!</h1>
@@ -15,6 +19,8 @@ const ErrorPage = () => {
         Go Home
       </button>
     </div>
+    <Footer/>
+    </>
   );
 };
 
