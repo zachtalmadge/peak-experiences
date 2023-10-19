@@ -71,7 +71,7 @@ const App = () => {
     fetch(`${URL1}/${activity.id}`, { method: "PATCH", headers, body })
 
     alert(`${activity.name} has been removed to your bucket list!`)
-  }
+  } // end function
 
   return (
     <>
