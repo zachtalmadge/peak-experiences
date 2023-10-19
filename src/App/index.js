@@ -53,7 +53,7 @@ const App = () => {
 
     let newActivites = activites.map(act => {
       if (act.id === id) {
-        return { isInList: false, ...act }
+        return { ...act, isInList: false }
       } else {
         return act
       }

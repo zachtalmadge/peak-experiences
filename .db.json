@@ -1,16 +1,5 @@
 {
-  "userList": [
-    {
-      "id": 1,
-      "name": "Visit the Great Wall of China",
-      "image": "https://www.travelandleisure.com/thmb/b2-ee45Q1DEjuzOa51XLhJ7Rfmc=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/great-wall-china-tourists-GWOC0417-10bddbf0783644c386178f62117b2132.jpg",
-      "location": "China",
-      "description": "Explore one of the most iconic landmarks in the world.",
-      "category": "Sight-Seeing",
-      "risk": "Low",
-      "isInList": true
-    }
-  ],
+  "userList": [],
   "bucketListItems": [
     {
       "id": 1,
@@ -20,7 +9,7 @@
       "description": "Explore one of the most iconic landmarks in the world.",
       "category": "Sight-Seeing",
       "risk": "Low",
-      "isInList": true
+      "isInList": false
     },
     {
       "id": 2,

@@ -9,9 +9,11 @@ import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 
 const AllActivites = () => {
+
   let [activites] = useOutletContext();
+
   let [category, setCategory] = useState("");
-  let [risk, setRisk] = useState('')
+  let [risk, setRisk] = useState("")
 
   const changeCategory = (e) => {
     setCategory(e.target.value);
@@ -39,15 +41,12 @@ const AllActivites = () => {
           <Col md={4} className="d-flex justify-content-center">
             <RiskLevelLegend/>
           </Col>
-
           <Col md={4} className="d-flex justify-content-center">
             <FilterByCategory changeCategory={changeCategory} />
           </Col>
-
           <Col md={4} className="d-flex justify-content-center">
             <FilterByRisk changeRiskFilter={changeRiskFilter}/>
           </Col>
-
         </Row>
         <Row>
           {filteredActivites.map((activity, i) => (
