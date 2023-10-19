@@ -3,10 +3,7 @@ import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
 import Button from 'react-bootstrap/Button'
 import BucketListCard from '../BucketListCard'
-import { useFetch } from '../../Hooks/customHooks'
 import { Link } from 'react-router-dom'
-
-let URL1 = "http://localhost:3000/bucketListItems";
 
 const FeaturedActivites = ({ featured }) => {
     
