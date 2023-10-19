@@ -1,24 +1,9 @@
 import Button from "react-bootstrap/Button";
 import Card from "react-bootstrap/Card";
 import { Link } from "react-router-dom";
+import borderColor from '../../Util/borderColor'
 
 function BucketListCard({ image, name, location, risk, id }) {
-  const borderColor = (risk) => {
-    let color;
-
-    switch (risk.toLowerCase()) {
-      case "low":
-        color = "success";
-        break;
-      case "medium":
-        color = "warning";
-        break;
-      default:
-        color = "danger";
-        break;
-    }
-    return color;
-  };
 
   return (
     <Card className="my-3 text-center" border={borderColor(risk)} style={{ borderWidth: "3px" }}>
