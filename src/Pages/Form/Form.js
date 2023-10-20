@@ -36,7 +36,7 @@ const Form = () => {
         }
 
         for (let key in activity){
-            if (key !== 'isInList' && activity[key] === ''){
+            if (key !== 'isInList' && activity[key].trim() === ''){
                 return alert('Please make sure all inputs are valid!')
             }
         }
