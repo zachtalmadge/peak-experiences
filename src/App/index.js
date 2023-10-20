@@ -45,13 +45,8 @@ const App = () => {
     // set state for both userList and activitesList
     setUserActivies(newUserActivites)
 
-    let newActivites = activites.map(act => {
-      if (act.id === id) {
-        return { ...act, isInList: false }
-      } else {
-        return act
-      }
-    })
+    // set isInList to false in state
+    let newActivites = activites.map(act =>  act.id === id ? { ...act, isInList: false } : act)
     setActivites(newActivites)
 
     let activity = activites.find(act => act.id === id)
@@ -63,7 +58,7 @@ const App = () => {
     fetch(`${URL2}/${activity.id}`, { method: "DELETE" })
     fetch(`${URL1}/${activity.id}`, { method: "PATCH", headers, body })
     
-    alert(`${activity.name} has been removed to your bucket list!`)
+    alert(`${activity.name} has been removed from your bucket list!`)
   } // end function
 
   return (
